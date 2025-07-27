@@ -20,6 +20,4 @@ In this repository, we develop a fine-tuning data curation method for answering 
   * OpenAI API key
   * Hugging Face Token
 
-## Part 1: Data Preparation
 
-## Part 2: LLM Execution 
