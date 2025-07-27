@@ -1,0 +1,296 @@
+[
+ {
+    "context": "The section discusses the standard conditions used in EnergyPlus specifically focusing on standard temperature and pressure for dry air.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Conditions ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the standard temperature condition for EnergyPlus.",
+    "question": "What is the standard temperature for dry air in EnergyPlus?",
+    "answer": "The standard temperature is 20°C drybulb."
+ },
+ {
+    "context": "EnergyPlus uses local barometric pressure to account for altitude by employing a specific equation.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Conditions ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how EnergyPlus accounts for altitude in its simulations.",
+    "question": "How does EnergyPlus account for altitude when initializing air systems?",
+    "answer": "EnergyPlus uses local barometric pressure and the equation for standard atmospheric pressure from ASHRAE 1997 HOF (SI edition)."
+ },
+ {
+    "context": "An equation is provided to calculate the standard pressure based on altitude.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Conditions ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation used for calculating standard atmospheric pressure.",
+    "question": "What is the equation for standard atmospheric pressure used in EnergyPlus?",
+    "answer": "Stdpressure = 101325 * (1.0 - Z * 2.25577^-5)^5.2559"
+ },
+ {
+    "context": "The equation for standard atmospheric pressure includes specific variables for pressure and altitude.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Conditions ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the variables used in the standard atmospheric pressure equation.",
+    "question": "What do the variables in the standard atmospheric pressure equation represent?",
+    "answer": "StdPressure represents pressure in Pa and Z represents altitude/elevation in meters."
+ },
+ {
+    "context": "EnergyPlus requires all input information to be in a single unit system specifically SI units.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the unit system used by EnergyPlus.",
+    "question": "What unit system does EnergyPlus expect for input information?",
+    "answer": "EnergyPlus expects information in a single unit system (SI)."
+ },
+ {
+    "context": "Interface developers must convert user inputs into the standard metric units of EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the responsibility of interface developers regarding unit conversion in EnergyPlus.",
+    "question": "What must interface developers do to user inputs for EnergyPlus?",
+    "answer": "Interface developers must convert user inputs into the standard metric units of EnergyPlus."
+ },
+ {
+    "context": "EnergyPlus does not perform any unit conversions or have any unit conversion routines.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the state the unit conversion capabilities of EnergyPlus.",
+    "question": "Does EnergyPlus perform any unit conversions?",
+    "answer": "No EnergyPlus does not perform any unit conversions and does not have any unit conversion routines."
+ },
+ {
+    "context": "ASCII with no spaces is used for unit abbreviations in EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how unit abbreviations are formatted in EnergyPlus.",
+    "question": "What format is used for unit abbreviations in EnergyPlus?",
+    "answer": "ASCII with no spaces is used for abbreviations."
+ },
+ {
+    "context": "Exponents in units are shown without any indication of exponentiation such as kg/m3 instead of kg/m^3.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how exponents are indicated in EnergyPlus unit abbreviations.",
+    "question": "How are exponents shown in EnergyPlus unit abbreviations?",
+    "answer": "Exponents appear without any indication of exponentiation such as kg/m3 not kg/m^3 or kg/m**3."
+ },
+ {
+    "context": "Dashes are used in units like W/m2-K instead of other notations.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the use of dashes in EnergyPlus unit abbreviations.",
+    "question": "How does EnergyPlus denote units like W/m2-K?",
+    "answer": "EnergyPlus uses dashes as in W/m2-K not W/m2*K or W/(m2*K)."
+ },
+ {
+    "context": "There are problem variables with non-standard units that require changes and code checks.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the issue with inputs having non-standard units in EnergyPlus.",
+    "question": "What needs to be done with inputs that have non-standard units in EnergyPlus?",
+    "answer": "Inputs using these units will have to be changed and the code checked to see how the quantities are used internally."
+ },
+ {
+    "context": "The table provides a list of standard EnergyPlus units with their quantities units and abbreviations.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the contents of the table in the section.",
+    "question": "What information is provided in the table of standard EnergyPlus units?",
+    "answer": "The table lists quantities their corresponding units and abbreviations used in EnergyPlus."
+ },
+ {
+    "context": "Angular degrees are measured in degrees with the abbreviation 'deg'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for angular degrees in EnergyPlus.",
+    "question": "What is the unit and abbreviation for angular degrees in EnergyPlus?",
+    "answer": "The unit is degree and the abbreviation is 'deg'."
+ },
+ {
+    "context": "Length is measured in meters with the abbreviation 'm'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for length in EnergyPlus.",
+    "question": "What is the unit and abbreviation for length in EnergyPlus?",
+    "answer": "The unit is meter and the abbreviation is 'm'."
+ },
+ {
+    "context": "Area is measured in square meters with the abbreviation 'm2'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for area in EnergyPlus.",
+    "question": "What is the unit and abbreviation for area in EnergyPlus?",
+    "answer": "The unit is square meter and the abbreviation is 'm2'."
+ },
+ {
+    "context": "Volume is measured in cubic meters with the abbreviation 'm3'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for volume in EnergyPlus.",
+    "question": "What is the unit and abbreviation for volume in EnergyPlus?",
+    "answer": "The unit is cubic meter and the abbreviation is 'm3'."
+ },
+ {
+    "context": "Time is measured in seconds with the abbreviation 's'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for time in EnergyPlus.",
+    "question": "What is the unit and abbreviation for time in EnergyPlus?",
+    "answer": "The unit is seconds and the abbreviation is 's'."
+ },
+ {
+    "context": "Frequency is measured in Hertz with the abbreviation 'Hz'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for frequency in EnergyPlus.",
+    "question": "What is the unit and abbreviation for frequency in EnergyPlus?",
+    "answer": "The unit is Hertz and the abbreviation is 'Hz'."
+ },
+ {
+    "context": "Temperature is measured in Celsius with the abbreviation 'C'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for temperature in EnergyPlus.",
+    "question": "What is the unit and abbreviation for temperature in EnergyPlus?",
+    "answer": "The unit is Celsius and the abbreviation is 'C'."
+ },
+ {
+    "context": "Absolute temperature is measured in Kelvin with the abbreviation 'K'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for absolute temperature in EnergyPlus.",
+    "question": "What is the unit and abbreviation for absolute temperature in EnergyPlus?",
+    "answer": "The unit is Kelvin and the abbreviation is 'K'."
+ },
+ {
+    "context": "Temperature difference is measured in Kelvin with the abbreviation 'deltaC'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for temperature difference in EnergyPlus.",
+    "question": "What is the unit and abbreviation for temperature difference in EnergyPlus?",
+    "answer": "The unit is Kelvin and the abbreviation is 'deltaC'."
+ },
+ {
+    "context": "Speed is measured in meters per second with the abbreviation 'm/s'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for speed in EnergyPlus.",
+    "question": "What is the unit and abbreviation for speed in EnergyPlus?",
+    "answer": "The unit is meters per second and the abbreviation is 'm/s'."
+ },
+ {
+    "context": "Energy or work is measured in Joules with the abbreviation 'J'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for energy or work in EnergyPlus.",
+    "question": "What is the unit and abbreviation for energy or work in EnergyPlus?",
+    "answer": "The unit is Joules and the abbreviation is 'J'."
+ },
+ {
+    "context": "Power is measured in Watts with the abbreviation 'W'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for power in EnergyPlus.",
+    "question": "What is the unit and abbreviation for power in EnergyPlus?",
+    "answer": "The unit is Watts and the abbreviation is 'W'."
+ },
+ {
+    "context": "Mass is measured in kilograms with the abbreviation 'kg'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for mass in EnergyPlus.",
+    "question": "What is the unit and abbreviation for mass in EnergyPlus?",
+    "answer": "The unit is kilograms and the abbreviation is 'kg'."
+ },
+ {
+    "context": "Force is measured in Newtons with the abbreviation 'N'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for force in EnergyPlus.",
+    "question": "What is the unit and abbreviation for force in EnergyPlus?",
+    "answer": "The unit is Newton and the abbreviation is 'N'."
+ },
+ {
+    "context": "Mass flow is measured in kilograms per second with the abbreviation 'kg/s'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for mass flow in EnergyPlus.",
+    "question": "What is the unit and abbreviation for mass flow in EnergyPlus?",
+    "answer": "The unit is kilograms per second and the abbreviation is 'kg/s'."
+ },
+ {
+    "context": "Volume flow is measured in cubic meters per second with the abbreviation 'm3/s'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for volume flow in EnergyPlus.",
+    "question": "What is the unit and abbreviation for volume flow in EnergyPlus?",
+    "answer": "The unit is cubic meters per second and the abbreviation is 'm3/s'."
+ },
+ {
+    "context": "Pressure and pressure difference are measured in Pascals with the abbreviation 'Pa'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for pressure and pressure difference in EnergyPlus.",
+    "question": "What is the unit and abbreviation for pressure and pressure difference in EnergyPlus?",
+    "answer": "The unit is Pascals and the abbreviation is 'Pa'."
+ },
+ {
+    "context": "Specific enthalpy is measured in Joules per kilogram with the abbreviation 'J/kg'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for specific enthalpy in EnergyPlus.",
+    "question": "What is the unit and abbreviation for specific enthalpy in EnergyPlus?",
+    "answer": "The unit is Joules per kilogram and the abbreviation is 'J/kg'."
+ },
+ {
+    "context": "Density is measured in kilograms per cubic meter with the abbreviation 'kg/m3'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for density in EnergyPlus.",
+    "question": "What is the unit and abbreviation for density in EnergyPlus?",
+    "answer": "The unit is kilograms per cubic meter and the abbreviation is 'kg/m3'."
+ },
+ {
+    "context": "Heat flux is measured in watts per square meter with the abbreviation 'W/m2'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for heat flux in EnergyPlus.",
+    "question": "What is the unit and abbreviation for heat flux in EnergyPlus?",
+    "answer": "The unit is watts per square meter and the abbreviation is 'W/m2'."
+ },
+ {
+    "context": "Specific heat is measured in Joules per kilogram-Kelvin with the abbreviation 'J/kg-K'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for specific heat in EnergyPlus.",
+    "question": "What is the unit and abbreviation for specific heat in EnergyPlus?",
+    "answer": "The unit is Joules per kilogram-Kelvin and the abbreviation is 'J/kg-K'."
+ },
+ {
+    "context": "Conductivity is measured in watts per meter-Kelvin with the abbreviation 'W/m-K'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for conductivity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for conductivity in EnergyPlus?",
+    "answer": "The unit is watts per meter-Kelvin and the abbreviation is 'W/m-K'."
+ },
+ {
+    "context": "Diffusivity is measured in square meters per second with the abbreviation 'm2/s'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for diffusivity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for diffusivity in EnergyPlus?",
+    "answer": "The unit is square meters per second and the abbreviation is 'm2/s'."
+ },
+ {
+    "context": "Heat transfer coefficient is measured in watts per square meter-Kelvin with the abbreviation 'W/m2-K'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for heat transfer coefficient in EnergyPlus.",
+    "question": "What is the unit and abbreviation for heat transfer coefficient in EnergyPlus?",
+    "answer": "The unit is watts per square meter-Kelvin and the abbreviation is 'W/m2-K'."
+ },
+ {
+    "context": "R-value is measured in square meter-Kelvin per watt with the abbreviation 'm2-K/W'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for R-value in EnergyPlus.",
+    "question": "What is the unit and abbreviation for R-value in EnergyPlus?",
+    "answer": "The unit is square meter-Kelvin per watt and the abbreviation is 'm2-K/W'."
+ },
+ {
+    "context": "Heating or cooling capacity is measured in Watts with the abbreviation 'W'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for heating or cooling capacity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for heating or cooling capacity in EnergyPlus?",
+    "answer": "The unit is Watts and the abbreviation is 'W'."
+ },
+ {
+    "context": "Electric potential is measured in volts with the abbreviation 'V'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for electric potential in EnergyPlus.",
+    "question": "What is the unit and abbreviation for electric potential in EnergyPlus?",
+    "answer": "The unit is volts and the abbreviation is 'V'."
+ },
+ {
+    "context": "Electric current is measured in Amperes with the abbreviation 'A'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for electric current in EnergyPlus.",
+    "question": "What is the unit and abbreviation for electric current in EnergyPlus?",
+    "answer": "The unit is Amperes and the abbreviation is 'A'."
+ },
+ {
+    "context": "Illuminance is measured in lux with the abbreviation 'lx'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for illuminance in EnergyPlus.",
+    "question": "What is the unit and abbreviation for illuminance in EnergyPlus?",
+    "answer": "The unit is lux and the abbreviation is 'lx'."
+ },
+ {
+    "context": "Luminous flux is measured in lumens with the abbreviation 'lm'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for luminous flux in EnergyPlus.",
+    "question": "What is the unit and abbreviation for luminous flux in EnergyPlus?",
+    "answer": "The unit is lumen and the abbreviation is 'lm'."
+ },
+ {
+    "context": "Luminous intensity is measured in candelas with the abbreviation 'cd'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for luminous intensity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for luminous intensity in EnergyPlus?",
+    "answer": "The unit is candelas and the abbreviation is 'cd'."
+ },
+ {
+    "context": "Luminance is measured in candelas per square meter with the abbreviation 'cd/m2'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for luminance in EnergyPlus.",
+    "question": "What is the unit and abbreviation for luminance in EnergyPlus?",
+    "answer": "The unit is candelas per square meter and the abbreviation is 'cd/m2'."
+ },
+ {
+    "context": "Vapor diffusivity is measured in meters squared per second with the abbreviation 'm2/s'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for vapor diffusivity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for vapor diffusivity in EnergyPlus?",
+    "answer": "The unit is meters squared per second and the abbreviation is 'm2/s'."
+ },
+ {
+    "context": "Viscosity is measured in kilograms per meter-second with the abbreviation 'kg/m-s'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for viscosity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for viscosity in EnergyPlus?",
+    "answer": "The unit is kilograms per meter-second and the abbreviation is 'kg/m-s'."
+ },
+ {
+    "context": "Dynamic viscosity is measured in Newton-seconds per square meter with the abbreviation 'N-s/m2'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for dynamic viscosity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for dynamic viscosity in EnergyPlus?",
+    "answer": "The unit is Newton-seconds per square meter and the abbreviation is 'N-s/m2'."
+ },
+ {
+    "context": "Thermal gradient coefficient for moisture capacity is measured in kilograms per kilogram-Kelvin with the abbreviation 'kg/kg-K'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for thermal gradient coefficient for moisture capacity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for thermal gradient coefficient for moisture capacity in EnergyPlus?",
+    "answer": "The unit is kilograms per kilogram-Kelvin and the abbreviation is 'kg/kg-K'."
+ },
+ {
+    "context": "Isothermal moisture capacity is measured in cubic meters per kilogram with the abbreviation 'm3/kg'.; From EnergyPlus Engineering Reference -> Chapter: Appendix A. Units and Abbreviations -> Section: Standard EnergyPlus Units ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unit and abbreviation for isothermal moisture capacity in EnergyPlus.",
+    "question": "What is the unit and abbreviation for isothermal moisture capacity in EnergyPlus?",
+    "answer": "The unit is cubic meters per kilogram and the abbreviation is 'm3/kg'."
+ },
+]

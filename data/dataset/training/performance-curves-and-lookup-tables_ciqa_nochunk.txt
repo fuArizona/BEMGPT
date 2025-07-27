@@ -1,0 +1,662 @@
+[
+ {
+    "context": "Performance curves define a polynomial equation which represents a conditional response to a model input.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the purpose of performance curves.",
+    "question": "What do performance curves represent?",
+    "answer": "Performance curves represent a conditional response to a model input using a polynomial equation."
+ },
+ {
+    "context": "A polynomial is a mathematical expression which uses a sum of powers in one or more variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define a polynomial.",
+    "question": "What is a polynomial?",
+    "answer": "A polynomial is a mathematical expression that uses a sum of powers in one or more variables."
+ },
+ {
+    "context": "The equation below represents an nth order univariate polynomial.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the type of polynomial equation given.",
+    "question": "What type of polynomial is represented by the equation y = a0 + a1x + a2x^2 + a3x^3 + ... + anx^n?",
+    "answer": "The equation represents an nth order univariate polynomial."
+ },
+ {
+    "context": "The highest power in the equation represents its order or degree (n).; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how the order of a polynomial is determined.",
+    "question": "What determines the order or degree of a polynomial?",
+    "answer": "The highest power in the equation determines the order or degree of a polynomial."
+ },
+ {
+    "context": "A polynomial in two independent variables (multi-variate) is given by the equation z = a00 + a10x + a01y + a11xy + a21x^2y + a12xy^2 + a22x^2y^2... + anmx^ny^m.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the given polynomial equation.",
+    "question": "What does the equation z = a00 + a10x + a01y + a11xy + a21x^2y + a12xy^2 + a22x^2y^2... + anmx^ny^m represent?",
+    "answer": "The equation represents a polynomial in two independent variables a multi-variate polynomial."
+ },
+ {
+    "context": "In EnergyPlus the result of an equation the dependent variable represents the response a system or component has given an input (the independent variable) to the system or component model.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the role of dependent and independent variables in EnergyPlus.",
+    "question": "What do the dependent and independent variables represent in EnergyPlus?",
+    "answer": "In EnergyPlus the dependent variable represents the system or component response and the independent variable represents the input to the model."
+ },
+ {
+    "context": "A variety of performance curves are available to describe the most common forms of engineering equations.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the purpose of various performance curves.",
+    "question": "Why are various performance curves used?",
+    "answer": "Various performance curves are used to describe the most common forms of engineering equations."
+ },
+ {
+    "context": "The coefficients (a-z) in the following equations are entered in the associated curve object to define a specific phenomenon.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the use of coefficients in performance curves.",
+    "question": "How are coefficients used in performance curves?",
+    "answer": "Coefficients are entered in the associated curve object to define a specific phenomenon."
+ },
+ {
+    "context": "Minimum and maximum limits may be applied to both the independent and the dependent variables as necessary.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss the application of limits in performance curves.",
+    "question": "What limits can be applied to performance curves?",
+    "answer": "Minimum and maximum limits can be applied to both the independent and dependent variables as necessary."
+ },
+ {
+    "context": "A polynomial having only a single independent variable represents a one-dimensional relationship between a condition (the model input) and response (the model output).; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a polynomial with a single independent variable.",
+    "question": "What does a polynomial with a single independent variable represent?",
+    "answer": "It represents a one-dimensional relationship between a condition (the model input) and response (the model output)."
+ },
+ {
+    "context": "The previously described nth order univariate polynomial is representative of the following performance curves.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the type of polynomial used in certain performance curves.",
+    "question": "What type of polynomial is used to represent certain performance curves?",
+    "answer": "The nth order univariate polynomial is used."
+ },
+ {
+    "context": "A performance curve having an order or degree of 1.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a linear performance curve.",
+    "question": "What is the order of a linear performance curve?",
+    "answer": "The order of a linear performance curve is 1."
+ },
+ {
+    "context": "The equation y = a + bx represents a linear curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a linear curve.",
+    "question": "What is the equation for a linear curve?",
+    "answer": "The equation for a linear curve is y = a + bx."
+ },
+ {
+    "context": "A performance curve having an order or degree of 2.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a quadratic performance curve.",
+    "question": "What is the order of a quadratic performance curve?",
+    "answer": "The order of a quadratic performance curve is 2."
+ },
+ {
+    "context": "The equation y = a + bx + cx^2 represents a quadratic curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a quadratic curve.",
+    "question": "What is the equation for a quadratic curve?",
+    "answer": "The equation for a quadratic curve is y = a + bx + cx^2."
+ },
+ {
+    "context": "A performance curve having an order or degree of 3.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a cubic performance curve.",
+    "question": "What is the order of a cubic performance curve?",
+    "answer": "The order of a cubic performance curve is 3."
+ },
+ {
+    "context": "The equation y = a + bx + cx^2 + dx^3 represents a cubic curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a cubic curve.",
+    "question": "What is the equation for a cubic curve?",
+    "answer": "The equation for a cubic curve is y = a + bx + cx^2 + dx^3."
+ },
+ {
+    "context": "A performance curve having an order or degree of 4.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a quartic performance curve.",
+    "question": "What is the order of a quartic performance curve?",
+    "answer": "The order of a quartic performance curve is 4."
+ },
+ {
+    "context": "The equation y = a + bx + cx^2 + dx^3 + ex^4 represents a quartic curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a quartic curve.",
+    "question": "What is the equation for a quartic curve?",
+    "answer": "The equation for a quartic curve is y = a + bx + cx^2 + dx^3 + ex^4."
+ },
+ {
+    "context": "A performance curve having an order or degree of c.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of an exponent performance curve.",
+    "question": "What is the order of an exponent performance curve?",
+    "answer": "The order of an exponent performance curve is c."
+ },
+ {
+    "context": "The equation y = a + bx^c represents an exponent curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for an exponent curve.",
+    "question": "What is the equation for an exponent curve?",
+    "answer": "The equation for an exponent curve is y = a + bx^c."
+ },
+ {
+    "context": "A polynomial having two independent variables represents a two-dimensional relationship between a condition (the model inputs) and response (the model output).; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a polynomial with two independent variables.",
+    "question": "What does a polynomial with two independent variables represent?",
+    "answer": "It represents a two-dimensional relationship between a condition (the model inputs) and response (the model output)."
+ },
+ {
+    "context": "The previously described nth order multi-variate polynomial is representative of the following performance curves.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the type of polynomial used in certain multi-variate performance curves.",
+    "question": "What type of polynomial is used to represent certain multi-variate performance curves?",
+    "answer": "The nth order multi-variate polynomial is used."
+ },
+ {
+    "context": "A performance curve having an order or degree of 2 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a QuadraticLinear performance curve.",
+    "question": "What is the order of a QuadraticLinear performance curve?",
+    "answer": "The order of a QuadraticLinear performance curve is 2."
+ },
+ {
+    "context": "The equation z = a + bx + cx^2 + dy + exy + fx^2y represents a QuadraticLinear curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a QuadraticLinear curve.",
+    "question": "What is the equation for a QuadraticLinear curve?",
+    "answer": "The equation for a QuadraticLinear curve is z = a + bx + cx^2 + dy + exy + fx^2y."
+ },
+ {
+    "context": "A performance curve having an order or degree of 3 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a CubicLinear performance curve.",
+    "question": "What is the order of a CubicLinear performance curve?",
+    "answer": "The order of a CubicLinear performance curve is 3."
+ },
+ {
+    "context": "The equation z = a + bx + cx^2 + dx^3 + ey + fxy represents a CubicLinear curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a CubicLinear curve.",
+    "question": "What is the equation for a CubicLinear curve?",
+    "answer": "The equation for a CubicLinear curve is z = a + bx + cx^2 + dx^3 + ey + fxy."
+ },
+ {
+    "context": "A performance curve having an order or degree of 2 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a BiQuadratic performance curve.",
+    "question": "What is the order of a BiQuadratic performance curve?",
+    "answer": "The order of a BiQuadratic performance curve is 2."
+ },
+ {
+    "context": "The equation z = a + bx + cx^2 + dy + ey^2 + fxy represents a BiQuadratic curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a BiQuadratic curve.",
+    "question": "What is the equation for a BiQuadratic curve?",
+    "answer": "The equation for a BiQuadratic curve is z = a + bx + cx^2 + dy + ey^2 + fxy."
+ },
+ {
+    "context": "A performance curve having an order or degree of 3 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the order of a BiCubic performance curve.",
+    "question": "What is the order of a BiCubic performance curve?",
+    "answer": "The order of a BiCubic performance curve is 3."
+ },
+ {
+    "context": "The equation z = a + bx + cx^2 + dy + ey^2 + fxy + gx^3 + hy^3 + ix^2y represents a BiCubic curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a BiCubic curve.",
+    "question": "What is the equation for a BiCubic curve?",
+    "answer": "The equation for a BiCubic curve is z = a + bx + cx^2 + dy + ey^2 + fxy + gx^3 + hy^3 + ix^2y."
+ },
+ {
+    "context": "Calculating performance curve coefficients in a spreadsheet is a simple matter of finding the data required to perform the regression.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to calculate performance curve coefficients.",
+    "question": "How can performance curve coefficients be calculated?",
+    "answer": "Performance curve coefficients can be calculated by finding the data required to perform the regression in a spreadsheet."
+ },
+ {
+    "context": "A quadratic curve is a performance curve having an order or degree of 2.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a quadratic performance curve.",
+    "question": "What is the order or degree of a quadratic performance curve?",
+    "answer": "2"
+ },
+ {
+    "context": "The equation for a quadratic curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a quadratic curve.",
+    "question": "What is the equation for a quadratic curve?",
+    "answer": "y = a + bx + cx^2"
+ },
+ {
+    "context": "A cubic curve is a performance curve having an order or degree of 3.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a cubic performance curve.",
+    "question": "What is the order or degree of a cubic performance curve?",
+    "answer": "3"
+ },
+ {
+    "context": "The equation for a cubic curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a cubic curve.",
+    "question": "What is the equation for a cubic curve?",
+    "answer": "y = a + bx + cx^2 + dx^3"
+ },
+ {
+    "context": "A quartic curve is a performance curve having an order or degree of 4.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a quartic performance curve.",
+    "question": "What is the order or degree of a quartic performance curve?",
+    "answer": "4"
+ },
+ {
+    "context": "The equation for a quartic curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a quartic curve.",
+    "question": "What is the equation for a quartic curve?",
+    "answer": "y = a + bx + cx^2 + dx^3 + ex^4"
+ },
+ {
+    "context": "An exponent curve is a performance curve having an order or degree of c.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe an exponent performance curve.",
+    "question": "What is the order or degree of an exponent performance curve?",
+    "answer": "c"
+ },
+ {
+    "context": "The equation for an exponent curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for an exponent curve.",
+    "question": "What is the equation for an exponent curve?",
+    "answer": "y = a + bx^c"
+ },
+ {
+    "context": "A polynomial having two independent variables represents a two-dimensional relationship between a condition and response.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the role of a polynomial with two independent variables.",
+    "question": "What does a polynomial with two independent variables represent?",
+    "answer": "A two-dimensional relationship between a condition and response."
+ },
+ {
+    "context": "A quadratic-linear curve is a performance curve having an order or degree of 2 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a quadratic-linear performance curve.",
+    "question": "What is the order or degree of a quadratic-linear performance curve?",
+    "answer": "2 in two independent variables"
+ },
+ {
+    "context": "The equation for a quadratic-linear curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a quadratic-linear curve.",
+    "question": "What is the equation for a quadratic-linear curve?",
+    "answer": "z = a + bx + cx^2 + dy + exy + fx^2y"
+ },
+ {
+    "context": "A cubic-linear curve is a performance curve having an order or degree of 3 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a cubic-linear performance curve.",
+    "question": "What is the order or degree of a cubic-linear performance curve?",
+    "answer": "3 in two independent variables"
+ },
+ {
+    "context": "The equation for a cubic-linear curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a cubic-linear curve.",
+    "question": "What is the equation for a cubic-linear curve?",
+    "answer": "z = a + bx + cx^2 + dx^3 + ey + fxy"
+ },
+ {
+    "context": "A biquadratic curve is a performance curve having an order or degree of 2 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a biquadratic performance curve.",
+    "question": "What is the order or degree of a biquadratic performance curve?",
+    "answer": "2 in two independent variables"
+ },
+ {
+    "context": "The equation for a biquadratic curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a biquadratic curve.",
+    "question": "What is the equation for a biquadratic curve?",
+    "answer": "z = a + bx + cx^2 + dy + ey^2 + fxy"
+ },
+ {
+    "context": "A bicubic curve is a performance curve having an order or degree of 3 in two independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe a bicubic performance curve.",
+    "question": "What is the order or degree of a bicubic performance curve?",
+    "answer": "3 in two independent variables"
+ },
+ {
+    "context": "The equation for a bicubic curve is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the equation for a bicubic curve.",
+    "question": "What is the equation for a bicubic curve?",
+    "answer": "z = a + bx + cx^2 + dy + ey^2 + fxy + gx^3 + hy^3 + ix^2y"
+ },
+ {
+    "context": "Calculating performance curve coefficients in a spreadsheet involves finding the data required for regression analysis.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the process of calculating performance curve coefficients in a spreadsheet.",
+    "question": "What is required to calculate performance curve coefficients in a spreadsheet?",
+    "answer": "Finding the data required for regression analysis."
+ },
+ {
+    "context": "The biquadratic equation represents the cooling capacity as a function of temperature performance curve for DX cooling coils.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the application of the biquadratic equation.",
+    "question": "What does the biquadratic equation represent?",
+    "answer": "The cooling capacity as a function of temperature performance curve for DX cooling coils."
+ },
+ {
+    "context": "The fundamental equation for DX cooling coil capacity is given.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the fundamental equation for DX cooling coil capacity.",
+    "question": "What is the fundamental equation for DX cooling coil capacity?",
+    "answer": "TotCapTempModFac = a + b(T_wbi) + c(T_wbi)^2 + d(T_ci) + e(T_ci)^2 + f(T_wbi)(T_ci)"
+ },
+ {
+    "context": "T_wbi is the wet-bulb temperature of the air entering the cooling coil in degrees Celsius.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define T_wbi in the context of cooling coils.",
+    "question": "What does T_wbi represent?",
+    "answer": "The wet-bulb temperature of the air entering the cooling coil (°C)."
+ },
+ {
+    "context": "T_ci or T_dbi is the dry-bulb temperature of the air entering an air-cooled condenser in degrees Celsius.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define T_ci in the context of air-cooled condensers.",
+    "question": "What does T_ci represent?",
+    "answer": "The dry-bulb temperature of the air entering an air-cooled condenser (°C)."
+ },
+ {
+    "context": "The data set shown in Figure 1 is used to calculate independent variables according to the fundamental equation.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the use of the data set shown in Figure 1.",
+    "question": "What is the purpose of the data set in Figure 1?",
+    "answer": "To calculate independent variables according to the fundamental equation."
+ },
+ {
+    "context": "The data is converted to degrees Celsius and the cooling capacity to Watts.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the conversion process for the data.",
+    "question": "How is the data converted for analysis?",
+    "answer": "The data is converted to degrees Celsius and the cooling capacity to Watts."
+ },
+ {
+    "context": "The data is normalized using the ARI rating point shown in Figure 2.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the normalization process for the data.",
+    "question": "How is the data normalized?",
+    "answer": "Using the ARI rating point shown in Figure 2."
+ },
+ {
+    "context": "Figure 1 shows a data table for an example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe Figure 1.",
+    "question": "What does Figure 1 show?",
+    "answer": "A data table for an example."
+ },
+ {
+    "context": "The fundamental equation is used to determine the number of independent variables and the form of the equation.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how the fundamental equation is used in regression analysis.",
+    "question": "What is the purpose of using the fundamental equation in regression analysis?",
+    "answer": "To determine the number of independent variables and the form of the equation."
+ },
+ {
+    "context": "A spreadsheet tool is selected to perform regression analysis and the coefficients are calculated.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the process of using a spreadsheet tool for regression analysis.",
+    "question": "What is the role of a spreadsheet tool in regression analysis?",
+    "answer": "To perform regression analysis and calculate the coefficients."
+ },
+ {
+    "context": "Figure 2 shows the regression analysis for the example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe Figure 2.",
+    "question": "What does Figure 2 show?",
+    "answer": "The regression analysis for the example."
+ },
+ {
+    "context": "The table displays Entering Wet-bulb Temperature Outdoor Dry-bulb Temperature Total Cooling Capacity in KBTHU and Total Cooling Capacity in Watts; Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7865.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify how the Total Cooling Capacity in Watts changes with increasing Outdoor Dry-bulb Temperature at a constant Entering Wet-bulb Temperature of 67°F.",
+    "question": "What is the Total Cooling Capacity in Watts when the Entering Wet-bulb Temperature is 67°F and the Outdoor Dry-bulb Temperature is 95°F?",
+    "answer": "22465.1500"
+ },
+ {
+    "context": "The table displays Entering Wet-bulb Temperature Outdoor Dry-bulb Temperature Total Cooling Capacity in KBTHU and Total Cooling Capacity in Watts; Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7865.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the assess how Entering Wet-bulb Temperature affects the Total Cooling Capacity in KBTHU at higher Outdoor Dry-bulb Temperatures.",
+    "question": "What is the Total Cooling Capacity in KBTHU for an Entering Wet-bulb Temperature of 71°F and Outdoor Dry-bulb Temperature of 115°F?",
+    "answer": "70.1"
+ },
+ {
+    "context": "The table displays Entering Wet-bulb Temperature Outdoor Dry-bulb Temperature Total Cooling Capacity in KBTHU and Total Cooling Capacity in Watts; Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7865.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the compare the Total Cooling Capacity in KBTHU for the lower and higher Outdoor Dry-bulb Temperatures while keeping the Entering Wet-bulb Temperature constant at 63°F.",
+    "question": "What is the difference in Total Cooling Capacity in KBTHU between Outdoor Dry-bulb Temperature of 65°F and 115°F at an Entering Wet-bulb Temperature of 63°F?",
+    "answer": "16.3"
+ },
+ {
+    "context": "The biquadratic equation represents the cooling capacity as a function of temperature performance curve for DX cooling coils.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the purpose of the biquadratic equation in the context of DX cooling coils.",
+    "question": "What does the biquadratic equation represent in the context of DX cooling coils?",
+    "answer": "It represents the cooling capacity as a function of temperature performance curve."
+ },
+ {
+    "context": "The fundamental equation for DX cooling coil capacity is provided.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the write down the fundamental equation for DX cooling coil capacity.",
+    "question": "What is the fundamental equation for DX cooling coil capacity?",
+    "answer": "TotCapTempModFac = a + b(T_wbi) + c(T_wbi)^2 + d(T_ci) + e(T_ci)^2 + f(T_wbi)(T_ci)"
+ },
+ {
+    "context": "Explanation of variables in the DX cooling coil capacity equation.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the variables used in the DX cooling coil capacity equation.",
+    "question": "What do the variables \(T_wbi\) and \(T_ci\) represent in the equation?",
+    "answer": "\(T_wbi\) is the wet-bulb temperature of the air entering the cooling coil (°C) and \(T_ci\) is the dry-bulb temperature of the air entering an air-cooled condenser (°C)."
+ },
+ {
+    "context": "Data is converted to degrees Celsius and cooling capacity to Watts then normalized using the ARI rating point.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the data conversion and normalization process for the DX cooling coil example.",
+    "question": "How is the data converted and normalized in the DX cooling coil example?",
+    "answer": "The data is converted to degrees Celsius the cooling capacity to Watts and normalized using the ARI rating point."
+ },
+ {
+    "context": "Figure illustrating the data table for the DX cooling coil example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the content shown in Figure 1.",
+    "question": "What is shown in Figure 1?",
+    "answer": "Figure 1 shows the data table for the DX cooling coil example."
+ },
+ {
+    "context": "A regression analysis is performed on the data set with a spreadsheet tool.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the process used to perform regression analysis on the data set.",
+    "question": "How is regression analysis performed on the data set?",
+    "answer": "A spreadsheet tool is used to perform regression analysis calculating and displaying the coefficients."
+ },
+ {
+    "context": "Figure illustrating the regression analysis for the DX cooling coil example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the content shown in Figure 2.",
+    "question": "What is shown in Figure 2?",
+    "answer": "Figure 2 shows the regression analysis for the DX cooling coil example."
+ },
+ {
+    "context": "The regression analysis summary and equation coefficients are provided.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the equation coefficients from the regression analysis summary.",
+    "question": "What are the equation coefficients from the regression analysis?",
+    "answer": "The coefficients are: a = 0.757382 b = 0.014666 c = 0.000459 d = -0.00095 e = -6.7E-05 and f = -0.00015."
+ },
+ {
+    "context": "A Curve:BiQuadratic object is used to describe the cooling capacity as a function of temperature.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the use of the Curve:BiQuadratic object in the DX cooling coil model.",
+    "question": "How is the Curve:BiQuadratic object used in the DX cooling coil model?",
+    "answer": "It is used to describe the cooling capacity as a function of temperature for the DX cooling coil model."
+ },
+ {
+    "context": "Minimum and maximum values from the tabular data are used for the curve object.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss the significance of minimum and maximum values in the Curve:BiQuadratic object.",
+    "question": "Why are minimum and maximum values important in the Curve:BiQuadratic object?",
+    "answer": "They are entered as Min/Max values for the curve object to ensure accurate representation and allow extrapolation if needed."
+ },
+ {
+    "context": "Figure illustrating the regression summary output for the DX cooling coil example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the content shown in Figure 3.",
+    "question": "What is shown in Figure 3?",
+    "answer": "Figure 3 shows the regression summary output for the DX cooling coil example."
+ },
+ {
+    "context": "Curve:Biquadratic listing for the DX cooling coil example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the Curve:Biquadratic listing for the DX cooling coil example.",
+    "question": "What is the Curve:Biquadratic listing for the DX cooling coil example?",
+    "answer": "Curve:Biquadratic CoolCapFTExample 0.757382 0.014666 0.000459 -0.00095 -0.000067 -0.00015 17.22222 21.66667 18.33333 46.11111   Temperature Temperature Dimensionless;"
+ },
+ {
+    "context": "Explanation of curves based on three independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the concept of curves based on three independent variables.",
+    "question": "What is the concept of curves based on three independent variables?",
+    "answer": "A polynomial having three independent variables represents a three-dimensional relationship between a condition (model inputs) and response (model output)."
+ },
+ {
+    "context": "Definition of TriQuadratic Curves.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define TriQuadratic Curves.",
+    "question": "What are TriQuadratic Curves?",
+    "answer": "A performance curve having an order or degree of 2 in three independent variables."
+ },
+ {
+    "context": "The image displays a table containing data on the cooling capacities of a system at various entering wet-bulb and outdoor dry-bulb temperatures; Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7865.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the total cooling capacity in watts (W) when the entering wet-bulb temperature is 67°F and the outdoor dry-bulb temperature is 85°F.",
+    "question": "What is the total cooling capacity in watts when the entering wet-bulb temperature is 67°F and the outdoor dry-bulb temperature is 85°F?",
+    "answer": "21528.1500 W"
+ },
+ {
+    "context": "The image displays a table containing data on the cooling capacities of a system at various entering wet-bulb and outdoor dry-bulb temperatures; Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7865.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the find the total cooling capacity in Kilowatt-hours (KBTUH) when the entering wet-bulb temperature and outdoor dry-bulb temperature are both 63°F.",
+    "question": "What is the cooling capacity in KBTUH for a wet-bulb temperature of 63°F and an outdoor dry-bulb of 63°F?",
+    "answer": "77.9 KBTUH"
+ },
+ {
+    "context": "The analysis and summary statistical output is presented highlighting the coefficients of an equation.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the coefficients in the equation.",
+    "question": "What are the coefficients in the equation?",
+    "answer": "The coefficients are: a = 0.757382 b = 0.014666 c = 0.000459 d = -0.00095 e = -6.7E-05 and f = -0.00015."
+ },
+ {
+    "context": "The coefficients are used in a Curve:BiQuadratic object to describe the cooling capacity as a function of temperature for the DX cooling coil model.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the application of the equation coefficients.",
+    "question": "How are the equation coefficients used in the model?",
+    "answer": "They are entered in a Curve:BiQuadratic object to describe cooling capacity as a function of temperature for the DX cooling coil model."
+ },
+ {
+    "context": "Minimum and Maximum values from the tabular data are entered as Min/Max values for the curve object allowing for extrapolation.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the use of Min/Max values in the curve object.",
+    "question": "What is the purpose of Min/Max values in the curve object?",
+    "answer": "They are used to set the range for the curve object and may be slightly relaxed to allow extrapolation."
+ },
+ {
+    "context": "A performance table may be used to automatically perform regression analysis.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the purpose of the performance table.",
+    "question": "What is the role of the performance table?",
+    "answer": "It is used to automatically perform the regression analysis."
+ },
+ {
+    "context": "A figure is included showing the regression summary output for an example.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  figure in /UAStudy/EnergyPlus/doc/engineering-reference/media/.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the content of the figure.",
+    "question": "What does the figure depict?",
+    "answer": "The figure shows the Regression Summary Output for an example."
+ },
+ {
+    "context": "A Curve:Biquadratic object is defined with specific coefficients and parameters.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the components of the Curve:Biquadratic object.",
+    "question": "What are the components of the Curve:Biquadratic object?",
+    "answer": "Name Coefficient1 Constant Coefficient2 x Coefficient3 x**2 Coefficient4 y Coefficient5 y**2 Coefficient6 x*y Minimum/Maximum Value of x/y Minimum/Maximum Curve Output Input Unit Type for X/Y Output Unit Type."
+ },
+ {
+    "context": "Curves based on three independent variables represent a three-dimensional relationship between condition and response.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the concept of curves based on three independent variables.",
+    "question": "What do curves based on three independent variables represent?",
+    "answer": "They represent a three-dimensional relationship between a condition (model inputs) and response (model output)."
+ },
+ {
+    "context": "TriQuadratic Curves are a type of performance curve with an order of 2 in three independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define TriQuadratic Curves.",
+    "question": "What are TriQuadratic Curves?",
+    "answer": "They are performance curves with an order or degree of 2 in three independent variables."
+ },
+ {
+    "context": "An equation is provided for a polynomial with three independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the equation structure for the polynomial with three independent variables.",
+    "question": "What is the equation for a polynomial with three independent variables?",
+    "answer": "Output = a + bx^2 + cx + dy^2 + ey + fz^2 + gz + hx^2y^2 + ixy + jxy^2 + kx^2y + lx^2z^2 + mxz + nxz^2 + ox^2z + py^2z^2 + qyz + ryz^2 + sy^2z + tx^2y^2z^2 + ux^2y^2z + ux^2yz^2 + vxy^2z^2 + wx^2yz + xxy^2z + yxyz^2 + zxyz"
+ },
+ {
+    "context": "A pressure drop curve is introduced.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss the concept of a pressure drop curve.",
+    "question": "What is a pressure drop curve?",
+    "answer": "It represents minor loss and/or friction calculations in plant pressure simulations."
+ },
+ {
+    "context": "An equation for the functional pressure drop curve is provided.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves ->  equation.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the equation for the functional pressure drop curve.",
+    "question": "What is the equation for the functional pressure drop curve?",
+    "answer": "ΔP = [K + f(L/D)](ρV^2)/2"
+ },
+ {
+    "context": "Summary of regression output showing various statistical measures including R-square adjusted R-square ANOVA and the coefficients of variables;  Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7867.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the analyze the significance of the regression model.",
+    "question": "What is the p-value indicating about the overall regression model's significance?",
+    "answer": "The p-value of 4.45E-23 for the overall regression model indicates that the model is statistically significant."
+ },
+ {
+    "context": "Summary of regression output showing various statistical measures including R-square adjusted R-square ANOVA and the coefficients of variables;  Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7867.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the evaluate the coefficient of the X variable.",
+    "question": "What does a coefficient of 0.014666 for the X variable suggest about its relationship with the dependent variable?",
+    "answer": "The coefficient of 0.014666 for the X variable suggests a positive relationship with the dependent variable."
+ },
+ {
+    "context": "Summary of regression output showing various statistical measures including R-square adjusted R-square ANOVA and the coefficients of variables;  Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7867.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss the model fit based on R-square values.",
+    "question": "How does an R-square value of 0.99988 reflect on the fit of the regression model?",
+    "answer": "An R-square value of 0.99988 reflects a very high degree of fit indicating that the model explains nearly all the variability of the response data around its mean."
+ },
+ {
+    "context": "Summary of regression output showing various statistical measures including R-square adjusted R-square ANOVA and the coefficients of variables;  Figure: /UAStudy/EnergyPlus/doc/engineering-reference/media/image7867.png; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Performance Curves -> .",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the examine the coefficient statistics for insight on inference.",
+    "question": "What can be inferred from the t Stat and P-value of the intercept?",
+    "answer": "The t Stat of 15.56052 and a P-value of 2.55E-09 for the intercept implies it is significantly different from zero affirming its importance in the model."
+ },
+ {
+    "context": "Lookup tables are used for evaluating data that may not fit a fundamental equation.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the purpose of lookup tables.",
+    "question": "What is the purpose of lookup tables?",
+    "answer": "Lookup tables provide a method to evaluate a group of data that may or may not conform to a fundamental equation."
+ },
+ {
+    "context": "Lookup tables can interpolate data using linear interpolation or cubic spline.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the interpolation methods used by lookup tables.",
+    "question": "What interpolation methods can lookup tables use?",
+    "answer": "Lookup tables can interpolate the actual data using a linear interpolation or piecewise cubic spline."
+ },
+ {
+    "context": "Lookup tables can be used wherever valid curve object names are allowed if they share the same number of independent variables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the state the condition for using lookup tables in place of curve objects.",
+    "question": "Under what condition can lookup tables be used in place of curve objects?",
+    "answer": "Lookup tables can be used anywhere a valid curve object name is allowed so long as they share the same number of independent variables."
+ },
+ {
+    "context": "Ensure table data format is consistent with the model using the performance curve.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the highlight the importance of data format consistency for lookup tables.",
+    "question": "Why is it important to ensure the table data format is consistent with the model using the performance curve?",
+    "answer": "Care must be taken to ensure the table data format is consistent with the associate model that is using the performance curve."
+ },
+ {
+    "context": "Lookup tables can specify linear or cubic interpolation for each dimension independently.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how interpolation can be specified in lookup tables.",
+    "question": "How can interpolation be specified in lookup tables?",
+    "answer": "A lookup table can be specified to use either linear or cubic interpolation independently for each dimension (input variable)."
+ },
+ {
+    "context": "Extrapolation methods can be set independently for each dimension in lookup tables.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss extrapolation methods in lookup tables.",
+    "question": "What extrapolation methods can be set for lookup tables?",
+    "answer": "For performance points outside the defined grid space an extrapolation method--constant or linear--can be set independently for each dimension."
+ },
+ {
+    "context": "Each axis in a lookup table can have specified boundaries beyond which extrapolation is not allowed.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe boundary specifications in lookup tables.",
+    "question": "What can be specified for each axis in a lookup table regarding extrapolation?",
+    "answer": "Each axis can have specified boundaries beyond which extrapolation is not permitted."
+ },
+ {
+    "context": "Linear interpolation formula for 1 dimension is provided.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the formula for linear interpolation in one dimension.",
+    "question": "What is the formula for linear interpolation in one dimension?",
+    "answer": "The value at \(x\) is estimated by: \[f\left(x\right) = \left(1-\mu\right) \cdot f\left(x_0\right) + \mu \cdot f\left(x_1\right)\]"
+ },
+ {
+    "context": "The variable \(\mu\) is the fraction of the distance between \(x_0\) and \(x_1\).; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the variable \(\mu\) in the context of linear interpolation.",
+    "question": "What is \(\mu\) in the context of linear interpolation?",
+    "answer": "\(\mu\) is the location of \(x\) expressed as a fraction of the distance between \(x_0\) and \(x_1\): \[\mu = \left(x-x_0\right) / \left(x_1 - x_0\right)\]"
+ },
+ {
+    "context": "Piecewise cubic spline formula for 1 dimension is provided.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the formula for a piecewise cubic spline in one dimension.",
+    "question": "What is the formula for a piecewise cubic spline in one dimension?",
+    "answer": "The formula is: \[\beginarrayrll   f\left(x\right) &= \left(2\mu^3 - 3\mu^2 + 1\right) \cdot f\left(x_0\right)   &+ \left(-2\mu^3 + 3\mu^2\right) \cdot f\left(x_1\right) \\   &+ \left(\mu^3 - 2\mu^2 + \mu\right) \cdot f^\prime \left(x_0\right)   &+ \left(\mu^3 - \mu^2\right) \cdot f^\prime \left(x_1\right) \endarray\]"
+ },
+ {
+    "context": "Catmull-Rom cubic spline interpolation defines derivatives as slopes between grid points.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how derivatives are defined in Catmull-Rom cubic spline interpolation.",
+    "question": "How are the derivatives defined in Catmull-Rom cubic spline interpolation?",
+    "answer": "The derivatives \(f^\prime \left(x_0\right)\) and \(f^\prime\left(x_1\right)\) are defined as the slope between the previous and following grid points on the axis: \[\beginarrayrl   f^\prime(x_0) &= ( f(x_1) - f(x_-1) ) / ( x_1 - x_-1) \\   f^\prime(x_1) &= ( f(x_2) - f(x_0) ) / ( x_2 - x_0) \endarray\]"
+ },
+ {
+    "context": "Catmull-Rom extends the slope of the final segment if at the grid edge.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how Catmull-Rom handles the grid edge in cubic spline interpolation.",
+    "question": "How does Catmull-Rom handle the grid edge in cubic spline interpolation?",
+    "answer": "When the hypercube is at the edge of the grid Catmull-Rom simply extends the slope of the final segment for defining the slope terms."
+ },
+ {
+    "context": "The interpolator can perform a mix of interpolation methods if specified.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the flexibility of interpolation methods in lookup tables.",
+    "question": "Can a mix of interpolation methods be used in lookup tables?",
+    "answer": "If a mix of interpolation methods are specified among the included dimensions the interpolator will perform that mix as requested."
+ },
+ {
+    "context": "Extrapolation is performed if the lookup point is beyond the grid edge.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss the extrapolation process in lookup tables.",
+    "question": "What happens if the lookup point is beyond the grid edge in a lookup table?",
+    "answer": "If the lookup point is beyond the grid edge on any axis the interpolator will perform the requested extrapolation method (linear or constant) on that dimension while proceeding with interpolation along any in-bounds dimension."
+ },
+ {
+    "context": "A constant extrapolation is performed if a do-not-extrapolate boundary is specified.; From EnergyPlus Engineering Reference -> Chapter: Performance Curves and Lookup Tables -> Section: Lookup Tables ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the action taken when a do-not-extrapolate boundary is specified.",
+    "question": "What happens when a do-not-extrapolate boundary is specified in a lookup table?",
+    "answer": "If a 'do-not-extrapolate' boundary is specified the interpolator will perform a constant extrapolation from that boundary outward (in that dimension) and it will return the resulting numerical answer along with a warning that the request was outside the boundaries."
+ },
+]

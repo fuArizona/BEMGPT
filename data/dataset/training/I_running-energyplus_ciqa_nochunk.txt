@@ -1,0 +1,1298 @@
+[
+ {
+    "context": "The Energy+.ini file is essential for the EnergyPlus simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the importance of the Energy+.ini file.",
+    "question": "Why is the Energy+.ini file very important to the simulation run?",
+    "answer": "The Energy+.ini file is read by the EnergyPlus.exe program and is very important to the simulation run."
+ },
+ {
+    "context": "The Energy+.ini file contains a pointer to the Energy+.idd file location.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the purpose of the Energy+.ini file.",
+    "question": "What specific information does the Energy+.ini file contain?",
+    "answer": "The Energy+.ini file contains a pointer to where the Energy+.idd file will be found."
+ },
+ {
+    "context": "More details about the Energy+.ini file can be found in the Auxiliary Programs document.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the locate additional documentation for the Energy+.ini file.",
+    "question": "Where can more description of the Energy+.ini contents be found?",
+    "answer": "More description of the Energy+.ini contents is contained in the Auxiliary Programs document."
+ },
+ {
+    "context": "The EPMacro program is used by advanced users and is described in the Auxiliary programs document.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the EPMacro program.",
+    "question": "What is the EPMacro program and where is it described?",
+    "answer": "The EPMacro program is for advanced users and is described in the Auxiliary programs document."
+ },
+ {
+    "context": "The EPMacro program is run separately before EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to run the EPMacro program.",
+    "question": "How do you run the EPMacro program in relation to EnergyPlus?",
+    "answer": "You run the EPMacro program as a separate program before EnergyPlus."
+ },
+ {
+    "context": "The batch file included in the install contains commands to run EPMacro.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify how the EPMacro program is included in the installation.",
+    "question": "How is the EPMacro program included in the EnergyPlus installation?",
+    "answer": "The batch file included in the install contains the commands to run EPMacro."
+ },
+ {
+    "context": "The EP-Launch program automatically runs the EPMacro program.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the role of EP-Launch in running EPMacro.",
+    "question": "What happens if you use the EP-Launch program?",
+    "answer": "If you use the EP-Launch program it automatically runs the EPMacro program."
+ },
+ {
+    "context": "EnergyPlus creates several output files depending on the simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the conditions under which EnergyPlus creates output files.",
+    "question": "Does EnergyPlus always create the same output files?",
+    "answer": "No whether some files are produced depends on the actual simulation."
+ },
+ {
+    "context": "The .rdd file is produced when a Variable Dictionary is requested.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe when the .rdd file is produced.",
+    "question": "When is the .rdd file produced?",
+    "answer": "The .rdd file is produced when you request a Variable Dictionary using the Output:Report object."
+ },
+ {
+    "context": "The .dxf file is produced when a DXF surface report is requested.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the conditions for producing a .dxf file.",
+    "question": "Under what condition is the .dxf file produced?",
+    "answer": "The .dxf file is produced when a DXF surface report is requested."
+ },
+ {
+    "context": "Common output files are listed in a table.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list common EnergyPlus output files.",
+    "question": "What are some common EnergyPlus output files?",
+    "answer": "Common output files include Eplusout.audit Eplusout.err Eplusout.eso Eplusout.eio Eplusout.rdd Eplusout.dxf Eplusout.mtr Eplusout.mtd Eplusout.end Eplusout.dbg Eplusout.<ext> Eplusout.sln Epluszsz.<ext> Eplusssz.<ext> Eplusout.bnd and Eplustbl.<ext>."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.audit file.",
+    "question": "What does the Eplusout.audit file contain?",
+    "answer": "The Eplusout.audit file contains an echo of input."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.err file.",
+    "question": "What does the Eplusout.err file contain?",
+    "answer": "The Eplusout.err file is an error file."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.eso file.",
+    "question": "What does the Eplusout.eso file contain?",
+    "answer": "The Eplusout.eso file is the Standard Output File that contains results from both Output:Variable and Output:Meter objects."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.eio file.",
+    "question": "What does the Eplusout.eio file contain?",
+    "answer": "The Eplusout.eio file is a one-time output file."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.rdd file.",
+    "question": "What does the Eplusout.rdd file contain?",
+    "answer": "The Eplusout.rdd file is an Output variable Data Dictionary."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.dxf file.",
+    "question": "What does the Eplusout.dxf file contain?",
+    "answer": "The Eplusout.dxf file is a DXF file from Output:ReportSurfacesDXF;."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.mtr file.",
+    "question": "What does the Eplusout.mtr file contain?",
+    "answer": "The Eplusout.mtr file is similar to .eso but only has Meter outputs."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.mtd file.",
+    "question": "What does the Eplusout.mtd file contain?",
+    "answer": "The Eplusout.mtd file is a Meter details report showing what variables are on what meters and vice versa."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.end file.",
+    "question": "What does the Eplusout.end file contain?",
+    "answer": "The Eplusout.end file contains a one-line summary of success or failure useful for Interface programs."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.dbg file.",
+    "question": "What does the Eplusout.dbg file contain?",
+    "answer": "The Eplusout.dbg file is from the Debug Output object and may be useful to support in tracking down problems."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.<ext> file.",
+    "question": "What does the Eplusout.<ext> file contain?",
+    "answer": "The Eplusout.<ext> file is not directly from EnergyPlus but is produced by utility programs that read the .eso file and produce output files for spreadsheet programs."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.sln file.",
+    "question": "What does the Eplusout.sln file contain?",
+    "answer": "The Eplusout.sln file is similar to DXF output but less formatted containing results of the Report Surface Lines object."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Epluszsz.<ext> file.",
+    "question": "What does the Epluszsz.<ext> file contain?",
+    "answer": "The Epluszsz.<ext> file contains results from the Zone Sizing object with an extension noted by the Sizing Style object and this file is spreadsheet-ready."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusssz.<ext> file.",
+    "question": "What does the Eplusssz.<ext> file contain?",
+    "answer": "The Eplusssz.<ext> file contains results from the System Sizing object with an extension noted by the Sizing Style object and this file is spreadsheet-ready."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.bnd file.",
+    "question": "What does the Eplusout.bnd file contain?",
+    "answer": "The Eplusout.bnd file contains details about the nodes and branches useful in determining if all nodes are connected correctly."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplustbl.<ext> file.",
+    "question": "What does the Eplustbl.<ext> file contain?",
+    "answer": "The Eplustbl.<ext> file contains results from various Report Table and a few other reporting commands with the extension from the style command and this file is spreadsheet-ready."
+ },
+ {
+    "context": "Context: The section discusses the ongoing process of timing studies and fine-tuning for EnergyPlus emphasizing that hourly simulations cannot be directly compared with EnergyPlus simulations with less than hourly timesteps.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Summarize the importance of timing studies in EnergyPlus.",
+    "question": "Question: Why are timing studies important for EnergyPlus?",
+    "answer": "Answer: Timing studies are important for EnergyPlus to ensure efficient simulation performance as it uses less than hourly timesteps which cannot be directly compared to hourly simulations."
+ },
+ {
+    "context": "Context: The subsection provides tips for reducing EnergyPlus run time highlighting that the run time is a small fraction of the total modeling time and emphasizes model simplification.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the significance of run time in EnergyPlus modeling.",
+    "question": "Question: How significant is the run time in the context of EnergyPlus modeling?",
+    "answer": "Answer: The run time is normally a small fraction of the total time needed to complete an energy modeling job making it important to build a clean and concise EnergyPlus model upfront."
+ },
+ {
+    "context": "Context: The text advises using techniques to simplify large and complex building and systems during the creation of energy models especially in early design stages.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Describe the approach to simplifying energy models.",
+    "question": "Question: What approach should be taken to simplify energy models during creation?",
+    "answer": "Answer: Techniques of simplifying large and complex building and systems should be used especially during the early design process when detailed zoning and other information is not available."
+ },
+ {
+    "context": "Context: Creating lots of hourly or sub-hourly reports can be time-consuming whereas summary and monthly reports take less time and are useful for troubleshooting.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Discuss the impact of report generation on simulation time.",
+    "question": "Question: How does generating reports affect EnergyPlus simulation time?",
+    "answer": "Answer: Producing lots of hourly or sub-hourly reports can take a significant amount of time whereas summary and typical monthly reports take relatively less time and are valuable for troubleshooting."
+ },
+ {
+    "context": "Context: Modelers are advised to use powerful personal computers with specific specifications to enhance simulation performance.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: List the recommended computer specifications for running EnergyPlus efficiently.",
+    "question": "Question: What are the recommended PC specifications for efficient EnergyPlus simulations?",
+    "answer": "Answer: Modelers should use PCs with 3 or more GHz and 3 or more GB of RAM."
+ },
+ {
+    "context": "Context: For large volumes of parametric runs modelers can launch multiple runs in parallel to save time.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain how to manage large volumes of parametric runs in EnergyPlus.",
+    "question": "Question: How can modelers manage large volumes of parametric runs in EnergyPlus?",
+    "answer": "Answer: Modelers can launch multiple runs in parallel to manage large volumes of parametric runs efficiently."
+ },
+ {
+    "context": "Context: The text suggests an iterative process for troubleshooting and fine-tuning energy models during the early modeling process.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Outline the iterative process recommended for troubleshooting energy models.",
+    "question": "Question: What is the recommended iterative process for troubleshooting energy models?",
+    "answer": "Answer: During the early modeling process keep the model simple make quick runs to identify problems modify the IDF file to fix problems and re-run the model until satisfactory solutions are found."
+ },
+ {
+    "context": "Context: The simulation process is divided into three phases: diagnostic runs preliminary runs and final runs each with different simulation settings.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Describe the three phases of the EnergyPlus simulation process.",
+    "question": "Question: What are the three phases of the EnergyPlus simulation process?",
+    "answer": "Answer: The three phases are diagnostic runs preliminary runs and final runs each using different simulation settings to balance speed and accuracy."
+ },
+ {
+    "context": "Context: Diagnostic runs prioritize speed over accuracy to catch most model problems by simulating summer and winter design days.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the purpose of diagnostic runs in EnergyPlus simulations.",
+    "question": "Question: What is the purpose of diagnostic runs in EnergyPlus simulations?",
+    "answer": "Answer: Diagnostic runs use settings to speed up simulations with accuracy as a second priority to catch most model problems by running simulations on summer and winter design days."
+ },
+ {
+    "context": "Context: Preliminary runs use tighter simulation settings to catch problems missed in diagnostic runs and ensure quality assurance.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Define the role of preliminary runs in the simulation process.",
+    "question": "Question: What role do preliminary runs play in the EnergyPlus simulation process?",
+    "answer": "Answer: Preliminary runs use tighter simulation settings to catch problems missed in diagnostic runs and provide better results for quality assurance."
+ },
+ {
+    "context": "Context: Final runs use recommended simulation settings to achieve better accuracy for results ready for review and reporting.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Discuss the objective of final runs in EnergyPlus simulations.",
+    "question": "Question: What is the objective of final runs in EnergyPlus simulations?",
+    "answer": "Answer: The objective of final runs is to use recommended simulation settings to achieve better accuracy for results that are ready for review and reporting."
+ },
+ {
+    "context": "Context: Additional run-time tips include using SimulationControl object settings commenting out daylighting controls and choosing specific algorithms and report settings.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: List some additional tips for reducing EnergyPlus run time.",
+    "question": "Question: What are some additional tips for reducing EnergyPlus run time?",
+    "answer": "Answer: Additional tips include running simulations for sizing periods before switching to weather file run periods turning off daylighting controls during HVAC simulation development using the ConductionTransferFunction algorithm and being cautious with thermal comfort reports in the People object."
+ },
+ {
+    "context": "Context: The section discusses the types of errors that can be found in the eplusout.err file generated by EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Identify the types of errors in the eplusout.err file.",
+    "question": "Question: What are the levels of errors mentioned in the eplusout.err file?",
+    "answer": "Answer: Information Warning Severe Fatal."
+ },
+ {
+    "context": "Context: The eplusout.err file may contain message lines and errors that might appear in other files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the possibility of error duplication.",
+    "question": "Question: Can the errors in the eplusout.err file appear in other files?",
+    "answer": "Answer: Yes these errors may be duplicated in other files such as the standard output file."
+ },
+ {
+    "context": "Context: The errors in the eplusout.err file are described in another document.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Locate the document where errors are described in detail.",
+    "question": "Question: Where are the errors described more completely?",
+    "answer": "Answer: In the Output Details and Examples document."
+ },
+ {
+    "context": "Context: An example of an .err file from EnergyPlus is provided.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Summarize the contents of the example .err file.",
+    "question": "Question: What information does the example .err file from EnergyPlus contain?",
+    "answer": "Answer: The example .err file contains warnings about missing fields filled with defaults weather file location differences and various integrity tests concluding with a successful simulation summary."
+ },
+ {
+    "context": "Context: A table describes different error levels and required actions for EnergyPlus errors.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Summarize the table of EnergyPlus errors and required actions.",
+    "question": "Question: What actions are required for each error level in EnergyPlus?",
+    "answer": "Answer: Information: No action required. Continuation: String messages together. Warning: Take note and fix as applicable. Severe: Should fix. Fatal: Program will abort must fix."
+ },
+ {
+    "context": "Context: EnergyPlus produces messages during execution to guide progress and provide checkpoints.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the purpose of messages produced during EnergyPlus execution.",
+    "question": "Question: Why does EnergyPlus produce messages during execution?",
+    "answer": "Answer: To guide its progress and provide checkpoints should the simulation fail."
+ },
+ {
+    "context": "Context: An example log from running the 1ZoneUncontrolled input file is shown.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Describe the sequence of actions in the example log.",
+    "question": "Question: What sequence of actions is shown in the example log of the 1ZoneUncontrolled input file run?",
+    "answer": "Answer: The log shows starting EnergyPlus processing data dictionary processing input file initializing simulation reporting surfaces initializing new environment parameters warming up and starting simulation at a specific date for a location."
+ },
+ {
+    "context": "The table lists different error levels and corresponding actions required when using EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the error levels and actions from the table.",
+    "question": "What actions are required for each error level in EnergyPlus?",
+    "answer": "Information: No action required. **~~ \~\textbackslash\~\~~~**: String all the words/sentences together. Warning: Take note. Fix as applicable. Severe: Should Fix. Fatal: Program will abort Must Fix."
+ },
+ {
+    "context": "EnergyPlus produces messages during execution to indicate progress and provide checkpoints if the simulation fails.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the purpose of messages produced by EnergyPlus during execution.",
+    "question": "Why does EnergyPlus produce messages during execution?",
+    "answer": "These messages illustrate the sequence of execution and provide checkpoints should the simulation fail."
+ },
+ {
+    "context": "The log of the 1ZoneUncontrolled example input file shows various steps and status updates during the EnergyPlus simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the sequence of events in the EnergyPlus log for the 1ZoneUncontrolled example.",
+    "question": "What are the key steps in the EnergyPlus log for the 1ZoneUncontrolled example?",
+    "answer": "Key steps include Running the program Processing Data Dictionary Processing Input File Initializing Simulation Reporting Surfaces Initializing New Environment Parameters Warming up Starting Simulation and Updating Shadowing Calculations."
+ },
+ {
+    "context": "The EnergyPlus log shows the simulation starting on specific dates for different weather conditions and locations.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the starting dates and locations for the simulations in the EnergyPlus log.",
+    "question": "On which dates and locations does the EnergyPlus simulation start according to the log?",
+    "answer": "The simulation starts on 12/21 for DENVER STAPLETON INTL ARPT 07/21 for DENVER STAPLETON INTL ARPT and 01/01 for Denver Centennial Golden Nr CO USA TMY3."
+ },
+ {
+    "context": "The log includes updates on shadowing calculations for various start dates in the EnergyPlus simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the dates when shadowing calculations are updated in the EnergyPlus log.",
+    "question": "When are the shadowing calculations updated in the EnergyPlus log?",
+    "answer": "Shadowing calculations are updated on 01/21 02/10 03/02 03/22 04/11 05/01 05/21 and 06/10."
+ },
+ {
+    "context": "The simulation initializes environment parameters for ARPT ANN HTG 99% conditions.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the initialization process for the ARPT ANN HTG 99% conditions.",
+    "question": "What is the initialization process for the ARPT ANN HTG 99% conditions?",
+    "answer": "The initialization involves warming up from step 1 to step 17."
+ },
+ {
+    "context": "The simulation starts on 07/21 for Denver Stapleton Intl Airport with ANN CLG 1% conditions.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the simulation start for Denver Stapleton Intl Airport.",
+    "question": "When does the simulation start for Denver Stapleton Intl Airport?",
+    "answer": "The simulation starts on 07/21 with ANN CLG 1% conditions."
+ },
+ {
+    "context": "The simulation initializes environment parameters for Denver Stapleton Intl Airport.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the initialization process for Denver Stapleton Intl Airport.",
+    "question": "What is the initialization process for Denver Stapleton Intl Airport?",
+    "answer": "The initialization involves warming up from step 1 to step 20."
+ },
+ {
+    "context": "The simulation starts on 01/01 for Denver Centennial Golden Nr CO USA TMY3.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the simulation start for Denver Centennial Golden.",
+    "question": "When does the simulation start for Denver Centennial Golden?",
+    "answer": "The simulation starts on 01/01 for Denver Centennial Golden Nr CO USA TMY3."
+ },
+ {
+    "context": "The simulation updates shadowing calculations with a start date of 01/21.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the shadowing calculation update process.",
+    "question": "When do shadowing calculations start in the simulation?",
+    "answer": "Shadowing calculations start on 01/21."
+ },
+ {
+    "context": "The simulation continues on 01/21 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the continuation of the simulation on 01/21.",
+    "question": "What happens on 01/21 in the simulation?",
+    "answer": "The simulation continues on 01/21 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 02/10.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the shadowing calculation update on 02/10.",
+    "question": "When are shadowing calculations updated after 01/21?",
+    "answer": "Shadowing calculations are updated on 02/10."
+ },
+ {
+    "context": "The simulation continues on 02/10 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the simulation continuation on 02/10.",
+    "question": "What happens on 02/10 in the simulation?",
+    "answer": "The simulation continues on 02/10 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 03/02.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the shadowing calculation update on 03/02.",
+    "question": "When are shadowing calculations updated after 02/10?",
+    "answer": "Shadowing calculations are updated on 03/02."
+ },
+ {
+    "context": "The simulation continues on 03/02 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the continuation of the simulation on 03/02.",
+    "question": "What happens on 03/02 in the simulation?",
+    "answer": "The simulation continues on 03/02 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 03/22.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 03/22.",
+    "question": "When are shadowing calculations updated after 03/02?",
+    "answer": "Shadowing calculations are updated on 03/22."
+ },
+ {
+    "context": "The simulation continues on 03/22 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 03/22.",
+    "question": "What happens on 03/22 in the simulation?",
+    "answer": "The simulation continues on 03/22 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 04/11.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 04/11.",
+    "question": "When are shadowing calculations updated after 03/22?",
+    "answer": "Shadowing calculations are updated on 04/11."
+ },
+ {
+    "context": "The simulation continues on 04/11 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 04/11.",
+    "question": "What happens on 04/11 in the simulation?",
+    "answer": "The simulation continues on 04/11 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 05/01.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 05/01.",
+    "question": "When are shadowing calculations updated after 04/11?",
+    "answer": "Shadowing calculations are updated on 05/01."
+ },
+ {
+    "context": "The simulation continues on 05/01 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 05/01.",
+    "question": "What happens on 05/01 in the simulation?",
+    "answer": "The simulation continues on 05/01 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 05/21.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 05/21.",
+    "question": "When are shadowing calculations updated after 05/01?",
+    "answer": "Shadowing calculations are updated on 05/21."
+ },
+ {
+    "context": "The simulation continues on 05/21 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 05/21.",
+    "question": "What happens on 05/21 in the simulation?",
+    "answer": "The simulation continues on 05/21 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 06/10.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 06/10.",
+    "question": "When are shadowing calculations updated after 05/21?",
+    "answer": "Shadowing calculations are updated on 06/10."
+ },
+ {
+    "context": "The simulation continues on 06/10 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 06/10.",
+    "question": "What happens on 06/10 in the simulation?",
+    "answer": "The simulation continues on 06/10 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 06/30.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 06/30.",
+    "question": "When are shadowing calculations updated after 06/10?",
+    "answer": "Shadowing calculations are updated on 06/30."
+ },
+ {
+    "context": "The simulation continues on 06/30 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 06/30.",
+    "question": "What happens on 06/30 in the simulation?",
+    "answer": "The simulation continues on 06/30 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 07/20.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 07/20.",
+    "question": "When are shadowing calculations updated after 06/30?",
+    "answer": "Shadowing calculations are updated on 07/20."
+ },
+ {
+    "context": "The simulation continues on 07/20 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 07/20.",
+    "question": "What happens on 07/20 in the simulation?",
+    "answer": "The simulation continues on 07/20 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 08/09.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 08/09.",
+    "question": "When are shadowing calculations updated after 07/20?",
+    "answer": "Shadowing calculations are updated on 08/09."
+ },
+ {
+    "context": "The simulation continues on 08/09 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 08/09.",
+    "question": "What happens on 08/09 in the simulation?",
+    "answer": "The simulation continues on 08/09 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 08/29.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 08/29.",
+    "question": "When are shadowing calculations updated after 08/09?",
+    "answer": "Shadowing calculations are updated on 08/29."
+ },
+ {
+    "context": "The simulation continues on 08/29 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 08/29.",
+    "question": "What happens on 08/29 in the simulation?",
+    "answer": "The simulation continues on 08/29 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 09/18.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 09/18.",
+    "question": "When are shadowing calculations updated after 08/29?",
+    "answer": "Shadowing calculations are updated on 09/18."
+ },
+ {
+    "context": "The simulation continues on 09/18 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 09/18.",
+    "question": "What happens on 09/18 in the simulation?",
+    "answer": "The simulation continues on 09/18 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 10/08.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 10/08.",
+    "question": "When are shadowing calculations updated after 09/18?",
+    "answer": "Shadowing calculations are updated on 10/08."
+ },
+ {
+    "context": "The simulation continues on 10/08 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 10/08.",
+    "question": "What happens on 10/08 in the simulation?",
+    "answer": "The simulation continues on 10/08 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 10/28.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 10/28.",
+    "question": "When are shadowing calculations updated after 10/08?",
+    "answer": "Shadowing calculations are updated on 10/28."
+ },
+ {
+    "context": "The simulation continues on 10/28 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 10/28.",
+    "question": "What happens on 10/28 in the simulation?",
+    "answer": "The simulation continues on 10/28 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 11/17.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 11/17.",
+    "question": "When are shadowing calculations updated after 10/28?",
+    "answer": "Shadowing calculations are updated on 11/17."
+ },
+ {
+    "context": "The simulation continues on 11/17 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 11/17.",
+    "question": "What happens on 11/17 in the simulation?",
+    "answer": "The simulation continues on 11/17 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 12/07.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 12/07.",
+    "question": "When are shadowing calculations updated after 11/17?",
+    "answer": "Shadowing calculations are updated on 12/07."
+ },
+ {
+    "context": "The simulation continues on 12/07 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 12/07.",
+    "question": "What happens on 12/07 in the simulation?",
+    "answer": "The simulation continues on 12/07 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 12/27.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 12/27.",
+    "question": "When are shadowing calculations updated after 12/07?",
+    "answer": "Shadowing calculations are updated on 12/27."
+ },
+ {
+    "context": "The simulation continues on 12/27 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 12/27.",
+    "question": "What happens on 12/27 in the simulation?",
+    "answer": "The simulation continues on 12/27 for Denver Centennial Golden."
+ },
+ {
+    "context": "The simulation writes tabular output file results using various formats.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the output file writing process.",
+    "question": "In what formats are the tabular output file results written?",
+    "answer": "The results are written in comma tab text and HTML formats."
+ },
+ {
+    "context": "The EnergyPlus run time is 00hr 00min 3.91sec.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the run time of the EnergyPlus simulation.",
+    "question": "What is the run time of the EnergyPlus simulation?",
+    "answer": "The run time is 00hr 00min 3.91sec."
+ },
+ {
+    "context": "The ReadVarsESO program starts and completes successfully.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the execution of the ReadVarsESO program.",
+    "question": "How does the ReadVarsESO program perform?",
+    "answer": "The ReadVarsESO program starts and completes successfully."
+ },
+ {
+    "context": "The ReadVars run time is 00hr 00min 0.39sec.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the run time of the ReadVars program.",
+    "question": "What is the run time of the ReadVars program?",
+    "answer": "The run time is 00hr 00min 0.39sec."
+ },
+ {
+    "context": "The ReadVarsESO program starts again and completes successfully.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the second execution of the ReadVarsESO program.",
+    "question": "How does the second execution of the ReadVarsESO program perform?",
+    "answer": "The ReadVarsESO program starts again and completes successfully."
+ },
+ {
+    "context": "The second ReadVars run time is 00hr 00min 0.27sec.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the run time of the second ReadVars program execution.",
+    "question": "What is the run time of the second ReadVars program execution?",
+    "answer": "The run time is 00hr 00min 0.27sec."
+ },
+ {
+    "context": "The HVAC diagram process is started and completed.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the HVAC diagram process.",
+    "question": "What happens during the HVAC diagram process?",
+    "answer": "The HVAC diagram process is started and completed."
+ },
+ {
+    "context": "The simulation ends on Sun 10/09/2011 at 16:04:39.34.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the end time of the simulation.",
+    "question": "When does the simulation end?",
+    "answer": "The simulation ends on Sun 10/09/2011 at 16:04:39.34."
+ },
+ {
+    "context": "The ReadVars program is included in the simulation process.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the inclusion of the ReadVars program.",
+    "question": "Is the ReadVars program included in the simulation process?",
+    "answer": "Yes the ReadVars program is included in the simulation process."
+ },
+ {
+    "context": "The simulation continues at various dates for Denver Centennial Golden Nr CO USA using TMY3 data.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the location and data type used for the simulation.",
+    "question": "What is the location and data type used for the simulation?",
+    "answer": "The location is Denver Centennial Golden Nr CO USA and the data type used is TMY3."
+ },
+ {
+    "context": "The simulation updates shadowing calculations starting from specific dates.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the start dates for updating shadowing calculations.",
+    "question": "What are the start dates for updating shadowing calculations?",
+    "answer": "The start dates are 07/20 08/09 08/29 09/18 10/08 10/28 11/17 12/07 and 12/27."
+ },
+ {
+    "context": "The simulation writes tabular output file results in various formats.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the formats used for writing tabular output file results.",
+    "question": "In which formats are the tabular output file results written?",
+    "answer": "The formats used are comma tab text and HTML."
+ },
+ {
+    "context": "The EnergyPlus simulation run time is provided.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the report the EnergyPlus simulation run time.",
+    "question": "What is the EnergyPlus simulation run time?",
+    "answer": "The EnergyPlus simulation run time is 00hr 00min 3.91sec."
+ },
+ {
+    "context": "The ReadVarsESO program starts and completes successfully with specific run times.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the note the run times for the ReadVarsESO program.",
+    "question": "What are the run times for the ReadVarsESO program?",
+    "answer": "The run times are 00hr 00min 0.39sec and 00hr 00min 0.27sec."
+ },
+ {
+    "context": "The ReadVarsESO program is run twice for different files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the determine the files for which the ReadVarsESO program is run.",
+    "question": "For which files is the ReadVarsESO program run?",
+    "answer": "The ReadVarsESO program is run for the eplusout.eso file and the eplusout.mtr file."
+ },
+ {
+    "context": "The HVAC Diagram process is started and completed.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the indicate the status of the HVAC Diagram process.",
+    "question": "What is the status of the HVAC Diagram process?",
+    "answer": "The HVAC Diagram process is started and completed."
+ },
+ {
+    "context": "The simulation ends on a specific date and time.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the end date and time of the simulation.",
+    "question": "When does the simulation end?",
+    "answer": "The simulation ends on Sun 10/09/2011 at 16:04:39.34."
+ },
+ {
+    "context": "The Energy+.ini file is essential for the EnergyPlus simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the importance of the Energy+.ini file.",
+    "question": "Why is the Energy+.ini file very important to the simulation run?",
+    "answer": "The Energy+.ini file is read by the EnergyPlus.exe program and is very important to the simulation run."
+ },
+ {
+    "context": "The Energy+.ini file contains a pointer to the Energy+.idd file location.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the purpose of the Energy+.ini file.",
+    "question": "What specific information does the Energy+.ini file contain?",
+    "answer": "The Energy+.ini file contains a pointer to where the Energy+.idd file will be found."
+ },
+ {
+    "context": "More details about the Energy+.ini file can be found in the Auxiliary Programs document.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the locate additional documentation for the Energy+.ini file.",
+    "question": "Where can more description of the Energy+.ini contents be found?",
+    "answer": "More description of the Energy+.ini contents is contained in the Auxiliary Programs document."
+ },
+ {
+    "context": "The EPMacro program is used by advanced users and is described in the Auxiliary programs document.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the EPMacro program.",
+    "question": "What is the EPMacro program and where is it described?",
+    "answer": "The EPMacro program is for advanced users and is described in the Auxiliary programs document."
+ },
+ {
+    "context": "The EPMacro program is run separately before EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to run the EPMacro program.",
+    "question": "How do you run the EPMacro program in relation to EnergyPlus?",
+    "answer": "You run the EPMacro program as a separate program before EnergyPlus."
+ },
+ {
+    "context": "The batch file included in the install contains commands to run EPMacro.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify how the EPMacro program is included in the installation.",
+    "question": "How is the EPMacro program included in the EnergyPlus installation?",
+    "answer": "The batch file included in the install contains the commands to run EPMacro."
+ },
+ {
+    "context": "The EP-Launch program automatically runs the EPMacro program.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the role of EP-Launch in running EPMacro.",
+    "question": "What happens if you use the EP-Launch program?",
+    "answer": "If you use the EP-Launch program it automatically runs the EPMacro program."
+ },
+ {
+    "context": "EnergyPlus creates several output files depending on the simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the conditions under which EnergyPlus creates output files.",
+    "question": "Does EnergyPlus always create the same output files?",
+    "answer": "No whether some files are produced depends on the actual simulation."
+ },
+ {
+    "context": "The .rdd file is produced when a Variable Dictionary is requested.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe when the .rdd file is produced.",
+    "question": "When is the .rdd file produced?",
+    "answer": "The .rdd file is produced when you request a Variable Dictionary using the Output:Report object."
+ },
+ {
+    "context": "The .dxf file is produced when a DXF surface report is requested.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the conditions for producing a .dxf file.",
+    "question": "Under what condition is the .dxf file produced?",
+    "answer": "The .dxf file is produced when a DXF surface report is requested."
+ },
+ {
+    "context": "Common output files are listed in a table.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list common EnergyPlus output files.",
+    "question": "What are some common EnergyPlus output files?",
+    "answer": "Common output files include Eplusout.audit Eplusout.err Eplusout.eso Eplusout.eio Eplusout.rdd Eplusout.dxf Eplusout.mtr Eplusout.mtd Eplusout.end Eplusout.dbg Eplusout.<ext> Eplusout.sln Epluszsz.<ext> Eplusssz.<ext> Eplusout.bnd and Eplustbl.<ext>."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.audit file.",
+    "question": "What does the Eplusout.audit file contain?",
+    "answer": "The Eplusout.audit file contains an echo of input."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.err file.",
+    "question": "What does the Eplusout.err file contain?",
+    "answer": "The Eplusout.err file is an error file."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.eso file.",
+    "question": "What does the Eplusout.eso file contain?",
+    "answer": "The Eplusout.eso file is the Standard Output File that contains results from both Output:Variable and Output:Meter objects."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.eio file.",
+    "question": "What does the Eplusout.eio file contain?",
+    "answer": "The Eplusout.eio file is a one-time output file."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.rdd file.",
+    "question": "What does the Eplusout.rdd file contain?",
+    "answer": "The Eplusout.rdd file is an Output variable Data Dictionary."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.dxf file.",
+    "question": "What does the Eplusout.dxf file contain?",
+    "answer": "The Eplusout.dxf file is a DXF file from Output:ReportSurfacesDXF;."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.mtr file.",
+    "question": "What does the Eplusout.mtr file contain?",
+    "answer": "The Eplusout.mtr file is similar to .eso but only has Meter outputs."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.mtd file.",
+    "question": "What does the Eplusout.mtd file contain?",
+    "answer": "The Eplusout.mtd file is a Meter details report showing what variables are on what meters and vice versa."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.end file.",
+    "question": "What does the Eplusout.end file contain?",
+    "answer": "The Eplusout.end file contains a one-line summary of success or failure useful for Interface programs."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.dbg file.",
+    "question": "What does the Eplusout.dbg file contain?",
+    "answer": "The Eplusout.dbg file is from the Debug Output object and may be useful to support in tracking down problems."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.<ext> file.",
+    "question": "What does the Eplusout.<ext> file contain?",
+    "answer": "The Eplusout.<ext> file is not directly from EnergyPlus but is produced by utility programs that read the .eso file and produce output files for spreadsheet programs."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.sln file.",
+    "question": "What does the Eplusout.sln file contain?",
+    "answer": "The Eplusout.sln file is similar to DXF output but less formatted containing results of the Report Surface Lines object."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Epluszsz.<ext> file.",
+    "question": "What does the Epluszsz.<ext> file contain?",
+    "answer": "The Epluszsz.<ext> file contains results from the Zone Sizing object with an extension noted by the Sizing Style object and this file is spreadsheet-ready."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusssz.<ext> file.",
+    "question": "What does the Eplusssz.<ext> file contain?",
+    "answer": "The Eplusssz.<ext> file contains results from the System Sizing object with an extension noted by the Sizing Style object and this file is spreadsheet-ready."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplusout.bnd file.",
+    "question": "What does the Eplusout.bnd file contain?",
+    "answer": "The Eplusout.bnd file contains details about the nodes and branches useful in determining if all nodes are connected correctly."
+ },
+ {
+    "context": "The table provides descriptions of EnergyPlus output files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Energy+.ini ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide a description of the Eplustbl.<ext> file.",
+    "question": "What does the Eplustbl.<ext> file contain?",
+    "answer": "The Eplustbl.<ext> file contains results from various Report Table and a few other reporting commands with the extension from the style command and this file is spreadsheet-ready."
+ },
+ {
+    "context": "Context: The section discusses the ongoing process of timing studies and fine-tuning for EnergyPlus emphasizing that hourly simulations cannot be directly compared with EnergyPlus simulations with less than hourly timesteps.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Summarize the importance of timing studies in EnergyPlus.",
+    "question": "Question: Why are timing studies important for EnergyPlus?",
+    "answer": "Answer: Timing studies are important for EnergyPlus to ensure efficient simulation performance as it uses less than hourly timesteps which cannot be directly compared to hourly simulations."
+ },
+ {
+    "context": "Context: The subsection provides tips for reducing EnergyPlus run time highlighting that the run time is a small fraction of the total modeling time and emphasizes model simplification.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the significance of run time in EnergyPlus modeling.",
+    "question": "Question: How significant is the run time in the context of EnergyPlus modeling?",
+    "answer": "Answer: The run time is normally a small fraction of the total time needed to complete an energy modeling job making it important to build a clean and concise EnergyPlus model upfront."
+ },
+ {
+    "context": "Context: The text advises using techniques to simplify large and complex building and systems during the creation of energy models especially in early design stages.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Describe the approach to simplifying energy models.",
+    "question": "Question: What approach should be taken to simplify energy models during creation?",
+    "answer": "Answer: Techniques of simplifying large and complex building and systems should be used especially during the early design process when detailed zoning and other information is not available."
+ },
+ {
+    "context": "Context: Creating lots of hourly or sub-hourly reports can be time-consuming whereas summary and monthly reports take less time and are useful for troubleshooting.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Discuss the impact of report generation on simulation time.",
+    "question": "Question: How does generating reports affect EnergyPlus simulation time?",
+    "answer": "Answer: Producing lots of hourly or sub-hourly reports can take a significant amount of time whereas summary and typical monthly reports take relatively less time and are valuable for troubleshooting."
+ },
+ {
+    "context": "Context: Modelers are advised to use powerful personal computers with specific specifications to enhance simulation performance.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: List the recommended computer specifications for running EnergyPlus efficiently.",
+    "question": "Question: What are the recommended PC specifications for efficient EnergyPlus simulations?",
+    "answer": "Answer: Modelers should use PCs with 3 or more GHz and 3 or more GB of RAM."
+ },
+ {
+    "context": "Context: For large volumes of parametric runs modelers can launch multiple runs in parallel to save time.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain how to manage large volumes of parametric runs in EnergyPlus.",
+    "question": "Question: How can modelers manage large volumes of parametric runs in EnergyPlus?",
+    "answer": "Answer: Modelers can launch multiple runs in parallel to manage large volumes of parametric runs efficiently."
+ },
+ {
+    "context": "Context: The text suggests an iterative process for troubleshooting and fine-tuning energy models during the early modeling process.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Outline the iterative process recommended for troubleshooting energy models.",
+    "question": "Question: What is the recommended iterative process for troubleshooting energy models?",
+    "answer": "Answer: During the early modeling process keep the model simple make quick runs to identify problems modify the IDF file to fix problems and re-run the model until satisfactory solutions are found."
+ },
+ {
+    "context": "Context: The simulation process is divided into three phases: diagnostic runs preliminary runs and final runs each with different simulation settings.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Describe the three phases of the EnergyPlus simulation process.",
+    "question": "Question: What are the three phases of the EnergyPlus simulation process?",
+    "answer": "Answer: The three phases are diagnostic runs preliminary runs and final runs each using different simulation settings to balance speed and accuracy."
+ },
+ {
+    "context": "Context: Diagnostic runs prioritize speed over accuracy to catch most model problems by simulating summer and winter design days.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the purpose of diagnostic runs in EnergyPlus simulations.",
+    "question": "Question: What is the purpose of diagnostic runs in EnergyPlus simulations?",
+    "answer": "Answer: Diagnostic runs use settings to speed up simulations with accuracy as a second priority to catch most model problems by running simulations on summer and winter design days."
+ },
+ {
+    "context": "Context: Preliminary runs use tighter simulation settings to catch problems missed in diagnostic runs and ensure quality assurance.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Define the role of preliminary runs in the simulation process.",
+    "question": "Question: What role do preliminary runs play in the EnergyPlus simulation process?",
+    "answer": "Answer: Preliminary runs use tighter simulation settings to catch problems missed in diagnostic runs and provide better results for quality assurance."
+ },
+ {
+    "context": "Context: Final runs use recommended simulation settings to achieve better accuracy for results ready for review and reporting.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Discuss the objective of final runs in EnergyPlus simulations.",
+    "question": "Question: What is the objective of final runs in EnergyPlus simulations?",
+    "answer": "Answer: The objective of final runs is to use recommended simulation settings to achieve better accuracy for results that are ready for review and reporting."
+ },
+ {
+    "context": "Context: Additional run-time tips include using SimulationControl object settings commenting out daylighting controls and choosing specific algorithms and report settings.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: EnergyPlus Execution Time ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: List some additional tips for reducing EnergyPlus run time.",
+    "question": "Question: What are some additional tips for reducing EnergyPlus run time?",
+    "answer": "Answer: Additional tips include running simulations for sizing periods before switching to weather file run periods turning off daylighting controls during HVAC simulation development using the ConductionTransferFunction algorithm and being cautious with thermal comfort reports in the People object."
+ },
+ {
+    "context": "Context: The section discusses the types of errors that can be found in the eplusout.err file generated by EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Identify the types of errors in the eplusout.err file.",
+    "question": "Question: What are the levels of errors mentioned in the eplusout.err file?",
+    "answer": "Answer: Information Warning Severe Fatal."
+ },
+ {
+    "context": "Context: The eplusout.err file may contain message lines and errors that might appear in other files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the possibility of error duplication.",
+    "question": "Question: Can the errors in the eplusout.err file appear in other files?",
+    "answer": "Answer: Yes these errors may be duplicated in other files such as the standard output file."
+ },
+ {
+    "context": "Context: The errors in the eplusout.err file are described in another document.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Locate the document where errors are described in detail.",
+    "question": "Question: Where are the errors described more completely?",
+    "answer": "Answer: In the Output Details and Examples document."
+ },
+ {
+    "context": "Context: An example of an .err file from EnergyPlus is provided.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Summarize the contents of the example .err file.",
+    "question": "Question: What information does the example .err file from EnergyPlus contain?",
+    "answer": "Answer: The example .err file contains warnings about missing fields filled with defaults weather file location differences and various integrity tests concluding with a successful simulation summary."
+ },
+ {
+    "context": "Context: A table describes different error levels and required actions for EnergyPlus errors.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Summarize the table of EnergyPlus errors and required actions.",
+    "question": "Question: What actions are required for each error level in EnergyPlus?",
+    "answer": "Answer: Information: No action required. Continuation: String messages together. Warning: Take note and fix as applicable. Severe: Should fix. Fatal: Program will abort must fix."
+ },
+ {
+    "context": "Context: EnergyPlus produces messages during execution to guide progress and provide checkpoints.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Explain the purpose of messages produced during EnergyPlus execution.",
+    "question": "Question: Why does EnergyPlus produce messages during execution?",
+    "answer": "Answer: To guide its progress and provide checkpoints should the simulation fail."
+ },
+ {
+    "context": "Context: An example log from running the 1ZoneUncontrolled input file is shown.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the instruction: Describe the sequence of actions in the example log.",
+    "question": "Question: What sequence of actions is shown in the example log of the 1ZoneUncontrolled input file run?",
+    "answer": "Answer: The log shows starting EnergyPlus processing data dictionary processing input file initializing simulation reporting surfaces initializing new environment parameters warming up and starting simulation at a specific date for a location."
+ },
+ {
+    "context": "The table lists different error levels and corresponding actions required when using EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the error levels and actions from the table.",
+    "question": "What actions are required for each error level in EnergyPlus?",
+    "answer": "Information: No action required. **~~ \~\textbackslash\~\~~~**: String all the words/sentences together. Warning: Take note. Fix as applicable. Severe: Should Fix. Fatal: Program will abort Must Fix."
+ },
+ {
+    "context": "EnergyPlus produces messages during execution to indicate progress and provide checkpoints if the simulation fails.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the purpose of messages produced by EnergyPlus during execution.",
+    "question": "Why does EnergyPlus produce messages during execution?",
+    "answer": "These messages illustrate the sequence of execution and provide checkpoints should the simulation fail."
+ },
+ {
+    "context": "The log of the 1ZoneUncontrolled example input file shows various steps and status updates during the EnergyPlus simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the sequence of events in the EnergyPlus log for the 1ZoneUncontrolled example.",
+    "question": "What are the key steps in the EnergyPlus log for the 1ZoneUncontrolled example?",
+    "answer": "Key steps include Running the program Processing Data Dictionary Processing Input File Initializing Simulation Reporting Surfaces Initializing New Environment Parameters Warming up Starting Simulation and Updating Shadowing Calculations."
+ },
+ {
+    "context": "The EnergyPlus log shows the simulation starting on specific dates for different weather conditions and locations.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the starting dates and locations for the simulations in the EnergyPlus log.",
+    "question": "On which dates and locations does the EnergyPlus simulation start according to the log?",
+    "answer": "The simulation starts on 12/21 for DENVER STAPLETON INTL ARPT 07/21 for DENVER STAPLETON INTL ARPT and 01/01 for Denver Centennial Golden Nr CO USA TMY3."
+ },
+ {
+    "context": "The log includes updates on shadowing calculations for various start dates in the EnergyPlus simulation.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the dates when shadowing calculations are updated in the EnergyPlus log.",
+    "question": "When are the shadowing calculations updated in the EnergyPlus log?",
+    "answer": "Shadowing calculations are updated on 01/21 02/10 03/02 03/22 04/11 05/01 05/21 and 06/10."
+ },
+ {
+    "context": "The simulation initializes environment parameters for ARPT ANN HTG 99% conditions.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the initialization process for the ARPT ANN HTG 99% conditions.",
+    "question": "What is the initialization process for the ARPT ANN HTG 99% conditions?",
+    "answer": "The initialization involves warming up from step 1 to step 17."
+ },
+ {
+    "context": "The simulation starts on 07/21 for Denver Stapleton Intl Airport with ANN CLG 1% conditions.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the simulation start for Denver Stapleton Intl Airport.",
+    "question": "When does the simulation start for Denver Stapleton Intl Airport?",
+    "answer": "The simulation starts on 07/21 with ANN CLG 1% conditions."
+ },
+ {
+    "context": "The simulation initializes environment parameters for Denver Stapleton Intl Airport.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the initialization process for Denver Stapleton Intl Airport.",
+    "question": "What is the initialization process for Denver Stapleton Intl Airport?",
+    "answer": "The initialization involves warming up from step 1 to step 20."
+ },
+ {
+    "context": "The simulation starts on 01/01 for Denver Centennial Golden Nr CO USA TMY3.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the simulation start for Denver Centennial Golden.",
+    "question": "When does the simulation start for Denver Centennial Golden?",
+    "answer": "The simulation starts on 01/01 for Denver Centennial Golden Nr CO USA TMY3."
+ },
+ {
+    "context": "The simulation updates shadowing calculations with a start date of 01/21.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the shadowing calculation update process.",
+    "question": "When do shadowing calculations start in the simulation?",
+    "answer": "Shadowing calculations start on 01/21."
+ },
+ {
+    "context": "The simulation continues on 01/21 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the continuation of the simulation on 01/21.",
+    "question": "What happens on 01/21 in the simulation?",
+    "answer": "The simulation continues on 01/21 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 02/10.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the shadowing calculation update on 02/10.",
+    "question": "When are shadowing calculations updated after 01/21?",
+    "answer": "Shadowing calculations are updated on 02/10."
+ },
+ {
+    "context": "The simulation continues on 02/10 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the simulation continuation on 02/10.",
+    "question": "What happens on 02/10 in the simulation?",
+    "answer": "The simulation continues on 02/10 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 03/02.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the shadowing calculation update on 03/02.",
+    "question": "When are shadowing calculations updated after 02/10?",
+    "answer": "Shadowing calculations are updated on 03/02."
+ },
+ {
+    "context": "The simulation continues on 03/02 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the continuation of the simulation on 03/02.",
+    "question": "What happens on 03/02 in the simulation?",
+    "answer": "The simulation continues on 03/02 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 03/22.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 03/22.",
+    "question": "When are shadowing calculations updated after 03/02?",
+    "answer": "Shadowing calculations are updated on 03/22."
+ },
+ {
+    "context": "The simulation continues on 03/22 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 03/22.",
+    "question": "What happens on 03/22 in the simulation?",
+    "answer": "The simulation continues on 03/22 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 04/11.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 04/11.",
+    "question": "When are shadowing calculations updated after 03/22?",
+    "answer": "Shadowing calculations are updated on 04/11."
+ },
+ {
+    "context": "The simulation continues on 04/11 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 04/11.",
+    "question": "What happens on 04/11 in the simulation?",
+    "answer": "The simulation continues on 04/11 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 05/01.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 05/01.",
+    "question": "When are shadowing calculations updated after 04/11?",
+    "answer": "Shadowing calculations are updated on 05/01."
+ },
+ {
+    "context": "The simulation continues on 05/01 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 05/01.",
+    "question": "What happens on 05/01 in the simulation?",
+    "answer": "The simulation continues on 05/01 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 05/21.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 05/21.",
+    "question": "When are shadowing calculations updated after 05/01?",
+    "answer": "Shadowing calculations are updated on 05/21."
+ },
+ {
+    "context": "The simulation continues on 05/21 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 05/21.",
+    "question": "What happens on 05/21 in the simulation?",
+    "answer": "The simulation continues on 05/21 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 06/10.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 06/10.",
+    "question": "When are shadowing calculations updated after 05/21?",
+    "answer": "Shadowing calculations are updated on 06/10."
+ },
+ {
+    "context": "The simulation continues on 06/10 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 06/10.",
+    "question": "What happens on 06/10 in the simulation?",
+    "answer": "The simulation continues on 06/10 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 06/30.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 06/30.",
+    "question": "When are shadowing calculations updated after 06/10?",
+    "answer": "Shadowing calculations are updated on 06/30."
+ },
+ {
+    "context": "The simulation continues on 06/30 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 06/30.",
+    "question": "What happens on 06/30 in the simulation?",
+    "answer": "The simulation continues on 06/30 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 07/20.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 07/20.",
+    "question": "When are shadowing calculations updated after 06/30?",
+    "answer": "Shadowing calculations are updated on 07/20."
+ },
+ {
+    "context": "The simulation continues on 07/20 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 07/20.",
+    "question": "What happens on 07/20 in the simulation?",
+    "answer": "The simulation continues on 07/20 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 08/09.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 08/09.",
+    "question": "When are shadowing calculations updated after 07/20?",
+    "answer": "Shadowing calculations are updated on 08/09."
+ },
+ {
+    "context": "The simulation continues on 08/09 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 08/09.",
+    "question": "What happens on 08/09 in the simulation?",
+    "answer": "The simulation continues on 08/09 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 08/29.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 08/29.",
+    "question": "When are shadowing calculations updated after 08/09?",
+    "answer": "Shadowing calculations are updated on 08/29."
+ },
+ {
+    "context": "The simulation continues on 08/29 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 08/29.",
+    "question": "What happens on 08/29 in the simulation?",
+    "answer": "The simulation continues on 08/29 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 09/18.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 09/18.",
+    "question": "When are shadowing calculations updated after 08/29?",
+    "answer": "Shadowing calculations are updated on 09/18."
+ },
+ {
+    "context": "The simulation continues on 09/18 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 09/18.",
+    "question": "What happens on 09/18 in the simulation?",
+    "answer": "The simulation continues on 09/18 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 10/08.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 10/08.",
+    "question": "When are shadowing calculations updated after 09/18?",
+    "answer": "Shadowing calculations are updated on 10/08."
+ },
+ {
+    "context": "The simulation continues on 10/08 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 10/08.",
+    "question": "What happens on 10/08 in the simulation?",
+    "answer": "The simulation continues on 10/08 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 10/28.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 10/28.",
+    "question": "When are shadowing calculations updated after 10/08?",
+    "answer": "Shadowing calculations are updated on 10/28."
+ },
+ {
+    "context": "The simulation continues on 10/28 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 10/28.",
+    "question": "What happens on 10/28 in the simulation?",
+    "answer": "The simulation continues on 10/28 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 11/17.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 11/17.",
+    "question": "When are shadowing calculations updated after 10/28?",
+    "answer": "Shadowing calculations are updated on 11/17."
+ },
+ {
+    "context": "The simulation continues on 11/17 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 11/17.",
+    "question": "What happens on 11/17 in the simulation?",
+    "answer": "The simulation continues on 11/17 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 12/07.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the shadowing calculation update on 12/07.",
+    "question": "When are shadowing calculations updated after 11/17?",
+    "answer": "Shadowing calculations are updated on 12/07."
+ },
+ {
+    "context": "The simulation continues on 12/07 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the continuation of the simulation on 12/07.",
+    "question": "What happens on 12/07 in the simulation?",
+    "answer": "The simulation continues on 12/07 for Denver Centennial Golden."
+ },
+ {
+    "context": "Shadowing calculations are updated with a start date of 12/27.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide details on the shadowing calculation update on 12/27.",
+    "question": "When are shadowing calculations updated after 12/07?",
+    "answer": "Shadowing calculations are updated on 12/27."
+ },
+ {
+    "context": "The simulation continues on 12/27 for Denver Centennial Golden.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the simulation continuation on 12/27.",
+    "question": "What happens on 12/27 in the simulation?",
+    "answer": "The simulation continues on 12/27 for Denver Centennial Golden."
+ },
+ {
+    "context": "The simulation writes tabular output file results using various formats.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the output file writing process.",
+    "question": "In what formats are the tabular output file results written?",
+    "answer": "The results are written in comma tab text and HTML formats."
+ },
+ {
+    "context": "The EnergyPlus run time is 00hr 00min 3.91sec.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the run time of the EnergyPlus simulation.",
+    "question": "What is the run time of the EnergyPlus simulation?",
+    "answer": "The run time is 00hr 00min 3.91sec."
+ },
+ {
+    "context": "The ReadVarsESO program starts and completes successfully.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the execution of the ReadVarsESO program.",
+    "question": "How does the ReadVarsESO program perform?",
+    "answer": "The ReadVarsESO program starts and completes successfully."
+ },
+ {
+    "context": "The ReadVars run time is 00hr 00min 0.39sec.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the run time of the ReadVars program.",
+    "question": "What is the run time of the ReadVars program?",
+    "answer": "The run time is 00hr 00min 0.39sec."
+ },
+ {
+    "context": "The ReadVarsESO program starts again and completes successfully.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the second execution of the ReadVarsESO program.",
+    "question": "How does the second execution of the ReadVarsESO program perform?",
+    "answer": "The ReadVarsESO program starts again and completes successfully."
+ },
+ {
+    "context": "The second ReadVars run time is 00hr 00min 0.27sec.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the run time of the second ReadVars program execution.",
+    "question": "What is the run time of the second ReadVars program execution?",
+    "answer": "The run time is 00hr 00min 0.27sec."
+ },
+ {
+    "context": "The HVAC diagram process is started and completed.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the HVAC diagram process.",
+    "question": "What happens during the HVAC diagram process?",
+    "answer": "The HVAC diagram process is started and completed."
+ },
+ {
+    "context": "The simulation ends on Sun 10/09/2011 at 16:04:39.34.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the end time of the simulation.",
+    "question": "When does the simulation end?",
+    "answer": "The simulation ends on Sun 10/09/2011 at 16:04:39.34."
+ },
+ {
+    "context": "The ReadVars program is included in the simulation process.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the inclusion of the ReadVars program.",
+    "question": "Is the ReadVars program included in the simulation process?",
+    "answer": "Yes the ReadVars program is included in the simulation process."
+ },
+ {
+    "context": "The simulation continues at various dates for Denver Centennial Golden Nr CO USA using TMY3 data.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the location and data type used for the simulation.",
+    "question": "What is the location and data type used for the simulation?",
+    "answer": "The location is Denver Centennial Golden Nr CO USA and the data type used is TMY3."
+ },
+ {
+    "context": "The simulation updates shadowing calculations starting from specific dates.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the start dates for updating shadowing calculations.",
+    "question": "What are the start dates for updating shadowing calculations?",
+    "answer": "The start dates are 07/20 08/09 08/29 09/18 10/08 10/28 11/17 12/07 and 12/27."
+ },
+ {
+    "context": "The simulation writes tabular output file results in various formats.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the formats used for writing tabular output file results.",
+    "question": "In which formats are the tabular output file results written?",
+    "answer": "The formats used are comma tab text and HTML."
+ },
+ {
+    "context": "The EnergyPlus simulation run time is provided.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the report the EnergyPlus simulation run time.",
+    "question": "What is the EnergyPlus simulation run time?",
+    "answer": "The EnergyPlus simulation run time is 00hr 00min 3.91sec."
+ },
+ {
+    "context": "The ReadVarsESO program starts and completes successfully with specific run times.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the note the run times for the ReadVarsESO program.",
+    "question": "What are the run times for the ReadVarsESO program?",
+    "answer": "The run times are 00hr 00min 0.39sec and 00hr 00min 0.27sec."
+ },
+ {
+    "context": "The ReadVarsESO program is run twice for different files.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the determine the files for which the ReadVarsESO program is run.",
+    "question": "For which files is the ReadVarsESO program run?",
+    "answer": "The ReadVarsESO program is run for the eplusout.eso file and the eplusout.mtr file."
+ },
+ {
+    "context": "The HVAC Diagram process is started and completed.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the indicate the status of the HVAC Diagram process.",
+    "question": "What is the status of the HVAC Diagram process?",
+    "answer": "The HVAC Diagram process is started and completed."
+ },
+ {
+    "context": "The simulation ends on a specific date and time.; From EnergyPlus Engineering Reference -> Chapter: Running EnergyPlus -> Section: Errors ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the provide the end date and time of the simulation.",
+    "question": "When does the simulation end?",
+    "answer": "The simulation ends on Sun 10/09/2011 at 16:04:39.34."
+ },
+]

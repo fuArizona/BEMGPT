@@ -1,0 +1,422 @@
+[
+ {
+    "context": "EnergyPlus version 9.4.0 allows writing native CSV output directly bypassing ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the changes in EnergyPlus version 9.4.0 regarding CSV output.",
+    "question": "What change was introduced in EnergyPlus version 9.4.0 related to CSV output?",
+    "answer": "EnergyPlus version 9.4.0 allows writing native CSV output directly instead of using the ReadVarsESO postprocessor."
+ },
+ {
+    "context": "ReadVarsESO helps convert standard output files from EnergyPlus into spreadsheet-compatible formats.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the purpose of the ReadVarsESO program.",
+    "question": "What is the purpose of the ReadVarsESO program?",
+    "answer": "The ReadVarsESO program converts standard output files from EnergyPlus into formats suitable for spreadsheets."
+ },
+ {
+    "context": "ReadVarsESO can sort complex output into time-based form quickly but lacks many features.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the capabilities and limitations of ReadVarsESO.",
+    "question": "What are the capabilities and limitations of ReadVarsESO?",
+    "answer": "ReadVarsESO can quickly sort complex output files into time-based form but does not have many features."
+ },
+ {
+    "context": "Output:Meter and Output:Meter:Cumulative objects are included in eplusout.eso and eplusout.mtr files.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify which objects are included in EnergyPlus output files.",
+    "question": "Which objects are included in the eplusout.eso and eplusout.mtr files?",
+    "answer": "Output:Meter and Output:Meter:Cumulative objects are included in both eplusout.eso and eplusout.mtr files."
+ },
+ {
+    "context": "Output:Meter:MeterFileOnly and Output:Meter:Cumulative:MeterFileOnly can exclude meters from eplusout.eso.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to exclude specific meters from the eplusout.eso file.",
+    "question": "How can specific meters be excluded from appearing in the eplusout.eso file?",
+    "answer": "By using Output:Meter:MeterFileOnly or Output:Meter:Cumulative:MeterFileOnly objects."
+ },
+ {
+    "context": "eplusout.mtr file is usually smaller than eplusout.eso if only metered outputs are needed.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the compare the size of eplusout.mtr and eplusout.eso files.",
+    "question": "Which file is typically smaller if only metered outputs are needed eplusout.mtr or eplusout.eso?",
+    "answer": "The eplusout.mtr file is typically smaller than the eplusout.eso file."
+ },
+ {
+    "context": "ReadVarsESO defaults to listing all variables in eplusout.eso or eplusout.mtr limited to 255 variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the state the default behavior of ReadVarsESO regarding variable listing.",
+    "question": "What is the default behavior of ReadVarsESO in terms of variable listing?",
+    "answer": "ReadVarsESO lists all variables in eplusout.eso or eplusout.mtr limited to 255 variables by default."
+ },
+ {
+    "context": "The 255 variable limit in ReadVarsESO can be overridden using 'unlimited' or 'nolimit' on the command line.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to override the 255 variable limit in ReadVarsESO.",
+    "question": "How can the 255 variable limit in ReadVarsESO be overridden?",
+    "answer": "By using 'unlimited' or 'nolimit' on the command line."
+ },
+ {
+    "context": "To use unlimited variables include the rvi file and 'unlimited' argument in ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the requirements for using unlimited variables in ReadVarsESO.",
+    "question": "What are the requirements to use the unlimited variable option in ReadVarsESO?",
+    "answer": "Include the rvi file and the 'unlimited' argument on the command line."
+ },
+ {
+    "context": "ReadVarsESO previously included a trailing space on the header line which could cause parsing issues.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the discuss the issue with the trailing space in ReadVarsESO header lines.",
+    "question": "What issue was caused by the trailing space in ReadVarsESO header lines?",
+    "answer": "The trailing space could cause parsing difficulties as the last variable would have a blank character at the end."
+ },
+ {
+    "context": "EnergyPlus 9.0 introduced a fixheader option to remove trailing spaces in ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the fixheader option introduced in EnergyPlus 9.0.",
+    "question": "What does the fixheader option in ReadVarsESO do?",
+    "answer": "The fixheader option removes the trailing space on the header line to ease parsing."
+ },
+ {
+    "context": "To use fixheader include an rvi file argument in ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to use the fixheader option in ReadVarsESO.",
+    "question": "What must be included to use the fixheader option in ReadVarsESO?",
+    "answer": "An rvi file argument must be included."
+ },
+ {
+    "context": "Table 41 lists ReadVarsESO command line options and their descriptions.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the contents of Table 41.",
+    "question": "What information is provided in Table 41?",
+    "answer": "Table 41 lists ReadVarsESO command line options and their descriptions."
+ },
+ {
+    "context": "Filename is a required first argument for using ReadVarsESO options.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the first argument required for ReadVarsESO options.",
+    "question": "What is the required first argument for using ReadVarsESO options?",
+    "answer": "A filename ('rvi' file) is required as the first argument."
+ },
+ {
+    "context": "Unlimited (or Nolimit) option produces any number of variables in the output file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the Unlimited (or Nolimit) option in ReadVarsESO.",
+    "question": "What does the Unlimited (or Nolimit) option do in ReadVarsESO?",
+    "answer": "It allows any number of variables to be produced in the output file."
+ },
+ {
+    "context": "FixHeader option prevents trailing spaces in CSV header lines for easier parsing.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the FixHeader option in ReadVarsESO.",
+    "question": "What is the purpose of the FixHeader option in ReadVarsESO?",
+    "answer": "It prevents trailing spaces in CSV header lines to ease parsing."
+ },
+ {
+    "context": "The ReadVarsESO runs have a default limit of 255 variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to override the variable limit in ReadVarsESO.",
+    "question": "How can you override the 255 variable limit in ReadVarsESO?",
+    "answer": "You can override the 255 variable limit by specifying an argument on the command line using 'unlimited' or 'nolimit'."
+ },
+ {
+    "context": "EP-Launch provides a special option to override the variable limit.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the tool that offers a special option for overriding the variable limit.",
+    "question": "Which tool provides a special option to override the 255 variable limit?",
+    "answer": "EP-Launch."
+ },
+ {
+    "context": "To use the unlimited variable option two arguments are needed for the ReadVars program.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the arguments required to use the unlimited variable option in ReadVars.",
+    "question": "What are the two arguments required to use the unlimited variable option in ReadVars?",
+    "answer": "1) The 'rvi' file and 2) the 'unlimited' argument."
+ },
+ {
+    "context": "ReadVarsESO includes a trailing space on the header line by default.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the issue caused by the trailing space on the header line in ReadVarsESO.",
+    "question": "What issue does the trailing space on the header line cause in ReadVarsESO?",
+    "answer": "The trailing space can result in parsing difficulties because the last variable will have a blank character at the end."
+ },
+ {
+    "context": "A new command line option 'fixheader' was added in EnergyPlus 9.0 to address header line issues.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the purpose of the 'fixheader' command line option in ReadVarsESO.",
+    "question": "What is the purpose of the 'fixheader' command line option in ReadVarsESO?",
+    "answer": "The 'fixheader' option eliminates the extra padding (trailing space) on the header line to ease parsing."
+ },
+ {
+    "context": "When using the 'fixheader' option an argument for the rvi file is required.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the clarify the requirement for using the 'fixheader' option in ReadVarsESO.",
+    "question": "What must you include when using the 'fixheader' option in ReadVarsESO?",
+    "answer": "You must include an argument for the rvi file as a required first positional argument."
+ },
+ {
+    "context": "Table 41 lists ReadVarsESO command line options and their descriptions.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize the purpose of Table 41.",
+    "question": "What is the purpose of Table 41 in the document?",
+    "answer": "Table 41 lists ReadVarsESO command line options and their descriptions."
+ },
+ {
+    "context": "The 'Unlimited' option allows any number of variables on the output file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the 'Unlimited' option in ReadVarsESO.",
+    "question": "What does the 'Unlimited' option do in ReadVarsESO?",
+    "answer": "The 'Unlimited' option allows variables of any number to be produced on the output file."
+ },
+ {
+    "context": "The 'FixHeader' option prevents a trailing space on the CSV header line.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the function of the 'FixHeader' option in ReadVarsESO.",
+    "question": "What is the function of the 'FixHeader' option in ReadVarsESO?",
+    "answer": "The 'FixHeader' option ensures the CSV header line does not have a trailing space aiding in parsing."
+ },
+ {
+    "context": "The 'Timestep' option restricts output to timestep frequency variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the 'Timestep' option in ReadVarsESO.",
+    "question": "What does the 'Timestep' option do in ReadVarsESO?",
+    "answer": "The 'Timestep' option ensures only variables with reported frequency 'timestep' are produced on the output file."
+ },
+ {
+    "context": "The 'Hourly' option restricts output to hourly frequency variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the 'Hourly' option in ReadVarsESO.",
+    "question": "What does the 'Hourly' option do in ReadVarsESO?",
+    "answer": "The 'Hourly' option ensures only variables with reported frequency 'hourly' are produced on the output file."
+ },
+ {
+    "context": "The 'Daily' option restricts output to daily frequency variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the 'Daily' option in ReadVarsESO.",
+    "question": "What does the 'Daily' option do in ReadVarsESO?",
+    "answer": "The 'Daily' option ensures only variables with reported frequency 'daily' are produced on the output file."
+ },
+ {
+    "context": "The 'Monthly' option restricts output to monthly frequency variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the 'Monthly' option in ReadVarsESO.",
+    "question": "What does the 'Monthly' option do in ReadVarsESO?",
+    "answer": "The 'Monthly' option ensures only variables with reported frequency 'monthly' are produced on the output file."
+ },
+ {
+    "context": "The 'Annual' option restricts output to annual frequency variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the 'Annual' option in ReadVarsESO.",
+    "question": "What does the 'Annual' option do in ReadVarsESO?",
+    "answer": "The 'Annual' option ensures only variables with reported frequency 'runperiod' are produced on the output file."
+ },
+ {
+    "context": "The output file can be restricted to one time frequency using specific arguments.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to restrict the output file to one time frequency.",
+    "question": "How can you restrict the output file to one time frequency in ReadVarsESO?",
+    "answer": "By using arguments like 'Timestep' or 'Monthly' you can restrict the output file to only those specific frequency variables."
+ },
+ {
+    "context": "EP-Launch or RunEPlus runs the program automatically if native CSV output is not present.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe when EP-Launch or RunEPlus automatically runs the program.",
+    "question": "When do EP-Launch or RunEPlus automatically run the program?",
+    "answer": "They run the program automatically if native CSV output is not present."
+ },
+ {
+    "context": "EP-Launch and RunEPlus use .rvi and .mvi files for input to ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the role of .rvi and .mvi files in ReadVarsESO.",
+    "question": "What is the role of .rvi and .mvi files in ReadVarsESO?",
+    "answer": ".rvi and .mvi files are used for input to the ReadVarsESO program executed after EnergyPlus execution."
+ },
+ {
+    "context": "The .rvi file typically applies to the eplusout.eso file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the typical application of the .rvi file.",
+    "question": "To which file does the .rvi file typically apply?",
+    "answer": "The .rvi file typically applies to the eplusout.eso file."
+ },
+ {
+    "context": "The .mvi file typically applies to the eplusout.mtr file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the typical application of the .mvi file.",
+    "question": "To which file does the .mvi file typically apply?",
+    "answer": "The .mvi file typically applies to the eplusout.mtr file."
+ },
+ {
+    "context": "The contents of .rvi and .mvi files specify the input and output reporting files.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain what the contents of .rvi and .mvi files specify.",
+    "question": "What do the contents of .rvi and .mvi files specify?",
+    "answer": "They specify the input reporting file and the output reorganized file."
+ },
+ {
+    "context": "The table provides information on how variables with different reported frequencies will be produced in the output file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how variables with different reported frequencies are handled in the output file.",
+    "question": "How are variables with different reported frequencies managed in the output file?",
+    "answer": "Variables with reported frequencies such as 'hourly' 'daily' 'monthly' and 'annual (or runperiod)' will be produced on the output file according to their specified frequency."
+ },
+ {
+    "context": "An argument can be used to produce the output file with only one time frequency rather than mixing all variables together.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how to produce an output file with a single time frequency.",
+    "question": "How can you produce an output file with only one time frequency?",
+    "answer": "By using 'Timestep' as an argument you would get only the TimeStep reported variables. Using 'Monthly' only the monthly variables would be included."
+ },
+ {
+    "context": "The program can be run automatically from the EP-Launch program or the RunEPlus batch file if native CSV output is not present.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how the program is run if native CSV output is not present.",
+    "question": "How is the program executed if native CSV output is not available?",
+    "answer": "The program is run automatically from the EP-Launch program or the RunEPlus batch file."
+ },
+ {
+    "context": "The programs use specific file types for input during execution.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the file types used for input during execution.",
+    "question": "What file types are used for input to the ReadVarsESO program?",
+    "answer": "The programs use <filename>.rvi for input to the ReadVarsESO program executed first and <filename>.mvi for the second execution."
+ },
+ {
+    "context": "The .rvi file applies to the eplusout.eso file and the .mvi applies to the eplusout.mtr file but the contents specify the input and output reporting files.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the clarify the purpose of the .rvi and .mvi files.",
+    "question": "What is the purpose of the .rvi and .mvi files?",
+    "answer": "The .rvi file applies to the eplusout.eso file and the .mvi applies to the eplusout.mtr file specifying the input reporting file and the output reorganized file."
+ },
+ {
+    "context": "The contents of an .rvi file include descriptions and actual file contents.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the typical contents of an .rvi file.",
+    "question": "What are the typical contents of an .rvi file?",
+    "answer": "Typical contents of an .rvi file include input file output file variable names specific variable names and an optional termination line."
+ },
+ {
+    "context": "The first two lines of the .rvi file indicate the input file and output file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the significance of the first two lines in an .rvi file.",
+    "question": "What do the first two lines of an .rvi file indicate?",
+    "answer": "The first two lines of an .rvi file indicate the input file (where to read the output variable values from) and the output file (where to put the reorganized data)."
+ },
+ {
+    "context": "The ReadVarsESO program uses the input stream to place required data onto the output file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the function of the ReadVarsESO program.",
+    "question": "What is the function of the ReadVarsESO program?",
+    "answer": "ReadVarsESO takes the input stream recognizes the date/time information and appropriately places the required data onto the output file."
+ },
+ {
+    "context": "Variables listed in the .rvi file are culled from the input file and placed onto the output file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how variables are handled in the .rvi file.",
+    "question": "How are variables handled in the .rvi file?",
+    "answer": "Variables listed in the .rvi file are culled from the input file and placed onto the output file. 'Variable Name' will take all variables matching that description whereas 'Specific Variable Name' will only take specific variables."
+ },
+ {
+    "context": "The table lists the contents of an .rvi file which specifies input and output files and variable names for processing by ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the input file specified in the .rvi file.",
+    "question": "What is the input file specified in the .rvi file?",
+    "answer": "eplusout.eso"
+ },
+ {
+    "context": "The table lists the contents of an .rvi file which specifies input and output files and variable names for processing by ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the output file specified in the .rvi file.",
+    "question": "What is the output file specified in the .rvi file?",
+    "answer": "eplusout.csv"
+ },
+ {
+    "context": "The table lists various variable names related to environmental and system conditions.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the variable names related to zone air conditions.",
+    "question": "What are the variable names related to zone air conditions?",
+    "answer": "Zone Air Temperature Zone Air Humidity Ratio Zone Air System Sensible Cooling Rate Zone Air System Sensible Heating Rate Zone Total Internal Latent Gain Rate Zone Air Relative Humidity Zone Predicted Moisture Load Moisture Transfer Rate"
+ },
+ {
+    "context": "The table lists specific variable names related to system nodes for temperature and mass flow rate.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify specific variable names related to system node temperature.",
+    "question": "What are the specific variable names related to system node temperature?",
+    "answer": "COOLING COIL AIR OUTLET NODESystem Node Temperature AIR LOOP OUTLET NODESystem Node Temperature"
+ },
+ {
+    "context": "The table lists specific variable names related to system nodes for temperature and mass flow rate.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify specific variable names related to system node mass flow rate.",
+    "question": "What are the specific variable names related to system node mass flow rate?",
+    "answer": "Mixed Air NodeSystem Node Mass Flow Rate Outdoor air Inlet NodeSystem Node Mass Flow Rate"
+ },
+ {
+    "context": "The table lists variable names related to humidifier operations.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the variable names related to humidifier operations.",
+    "question": "What are the variable names related to humidifier operations?",
+    "answer": "Humidifier Water Consumption Rate Humidifier Electric Power"
+ },
+ {
+    "context": "The table ends with an optional termination line for the .rvi file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the termination line in the .rvi file.",
+    "question": "What is the termination line in the .rvi file?",
+    "answer": "0"
+ },
+ {
+    "context": "The text explains how the ReadVarsESO program uses input and output files specified in an .rvi file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the purpose of the input and output files in an .rvi file.",
+    "question": "What is the purpose of the input and output files in an .rvi file?",
+    "answer": "The input file is where the output variable values are read from and the output file is where the reorganized data is placed."
+ },
+ {
+    "context": "The text describes how ReadVarsESO processes variable names from the .rvi file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the differentiate between 'Variable Name' and 'Specific Variable Name' in the .rvi file.",
+    "question": "What is the difference between 'Variable Name' and 'Specific Variable Name' in the .rvi file?",
+    "answer": "'Variable Name' takes all variables matching that description whereas 'Specific Variable Name' only matches the full description of the variable."
+ },
+ {
+    "context": "The text explains the output format of ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the output format of ReadVarsESO.",
+    "question": "What is the output format of ReadVarsESO?",
+    "answer": "The output is in a comma-delimited or comma-separated variable format which can be read in spreadsheet programs like Excel."
+ },
+ {
+    "context": "The text warns about requesting unavailable variables in the .rvi file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain what happens if unavailable variables are requested in the .rvi file.",
+    "question": "What happens if unavailable variables are requested in the .rvi file?",
+    "answer": "They will become 'Warning' messages in the eplusout.err file."
+ },
+ {
+    "context": "A warning message example is provided for unavailable variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the unavailable variable in the warning message.",
+    "question": "What is the unavailable variable in the warning message?",
+    "answer": "SYSTEM SENSIBLE COOLING RATE"
+ },
+ {
+    "context": "A table provides example command lines and results for ReadVarsESO.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the result of using the ReadVarsESO command.",
+    "question": "What is the result of using the ReadVarsESO command?",
+    "answer": "It takes eplusout.eso and produces an eplusout.csv file with all variables (up to 255) on it."
+ },
+ {
+    "context": "Zone Air Temperature will report air temperatures for all zones at the HVAC timestep if detailed reporting frequency is chosen.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain what 'Zone Air Temperature' reports.",
+    "question": "What does 'Zone Air Temperature' report?",
+    "answer": "It reports air temperatures for all zones at the HVAC timestep if detailed reporting frequency is chosen."
+ },
+ {
+    "context": "'AIR LOOP OUTLET NODE' and 'COOLING COIL AIR OUTLET NODE' are the only values reported for 'System Node Temperature'.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the nodes for which 'System Node Temperature' is reported.",
+    "question": "Which nodes have their temperatures reported for the 'System Node Temperature' variable?",
+    "answer": "'AIR LOOP OUTLET NODE' and 'COOLING COIL AIR OUTLET NODE'."
+ },
+ {
+    "context": "The termination line (0) is used to terminate input to the ReadVarsESO program and begin scanning.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the purpose of the termination line in ReadVarsESO.",
+    "question": "What is the purpose of the termination line (0) in ReadVarsESO?",
+    "answer": "It is used to terminate input to the ReadVarsESO program and begin scanning."
+ },
+ {
+    "context": "ReadVarsESO output is in a comma-separated variable format readable in spreadsheet programs like Excel.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the output format of ReadVarsESO.",
+    "question": "In what format does ReadVarsESO output data?",
+    "answer": "In a comma-separated variable format readable in spreadsheet programs like Excel."
+ },
+ {
+    "context": "Only variables listed on the eplusout.rdd file are available for reporting; others become warnings in the eplusout.err file.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the clarify which variables are available for reporting in ReadVarsESO.",
+    "question": "Which variables are available for reporting in ReadVarsESO?",
+    "answer": "Only variables listed on the eplusout.rdd file; others become warnings in the eplusout.err file."
+ },
+ {
+    "context": "A warning message is generated if a variable requested in an IDF is not available.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe what happens if a requested variable is not available in an IDF.",
+    "question": "What happens if a variable requested in an IDF is not available?",
+    "answer": "A warning message is generated."
+ },
+ {
+    "context": "The warning message indicates a requested variable was not generated because it was not in the IDF or was misspelled.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the reason for the warning message in the context of variable request.",
+    "question": "Why does the warning message appear for a requested variable?",
+    "answer": "Because the IDF did not contain the elements or the variable name was misspelled."
+ },
+ {
+    "context": "ReadVarsESO can produce an eplusout.csv file with all variables up to 255.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the state the output capability of ReadVarsESO.",
+    "question": "What does ReadVarsESO produce?",
+    "answer": "An eplusout.csv file with all variables up to 255."
+ },
+ {
+    "context": "ReadVarsESO my.rvi uses the contents of 'my.rvi' to produce an output file limited to 255 variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the function of 'ReadVarsESO my.rvi'.",
+    "question": "What does 'ReadVarsESO my.rvi' do?",
+    "answer": "It uses the contents of 'my.rvi' to produce an output file limited to 255 variables."
+ },
+ {
+    "context": "ReadVarsESO my.rvi unlimited uses the contents of 'my.rvi' to produce an output file with no variable limit.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the function of 'ReadVarsESO my.rvi unlimited'.",
+    "question": "What does 'ReadVarsESO my.rvi unlimited' do?",
+    "answer": "It uses the contents of 'my.rvi' to produce an output file with no variable limit."
+ },
+ {
+    "context": "ReadVarsESO my.rvi Monthly produces output for variables reported monthly limited to 255 variables.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the function of 'ReadVarsESO my.rvi Monthly'.",
+    "question": "What does 'ReadVarsESO my.rvi Monthly' do?",
+    "answer": "It produces output for variables reported monthly limited to 255 variables."
+ },
+ {
+    "context": "ReadVarsESO my.rvi Daily unlimited produces output for daily reported variables with no variable limit.; From EnergyPlus Engineering Reference -> Chapter: Output -> Section: Using ReadVarsESO ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the function of 'ReadVarsESO my.rvi Daily unlimited'.",
+    "question": "What does 'ReadVarsESO my.rvi Daily unlimited' do?",
+    "answer": "It produces output for daily reported variables with no variable limit."
+ },
+]

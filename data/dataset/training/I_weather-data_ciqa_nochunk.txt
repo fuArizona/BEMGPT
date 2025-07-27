@@ -1,0 +1,164 @@
+[
+ {
+    "context": "The section discusses the missing weather descriptors in data and how EnergyPlus handles them.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Missing Weather File Data ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize how missing weather data is processed in EnergyPlus.",
+    "question": "How does EnergyPlus process missing weather data?",
+    "answer": "EnergyPlus processes missing weather data by filling in missing values with something appropriate and eventually users will be able to supply their own values or EnergyPlus will calculate those values."
+ },
+ {
+    "context": "The text explains that missing weather values will eventually be available through the IDD.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Missing Weather File Data ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the future availability of missing weather values.",
+    "question": "What will be the future availability of missing weather values?",
+    "answer": "Missing weather values will eventually be available through the IDD allowing users to supply their own values or EnergyPlus to calculate them."
+ },
+ {
+    "context": "A table provides replacement values for various weather data items when they are missing.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Missing Weather File Data ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the replacement values for missing weather data items.",
+    "question": "What are the replacement values for missing weather data items?",
+    "answer": "Dry-bulb Temperature: 6 C Dewpoint Temperature: 3 C Relative Humidity: 50% Atmospheric Pressure: Standard Barometric Pressure (altitude based) Wind Speed: 2.5 m/s Wind Direction: 180 Deg Total Sky Cover: 5 tenths Opaque Sky Cover: 5 tenths Visibility: 777.7 Km Ceiling Height: 77777 m Precipitable Water: 0 Mm Aerosol Optical Depth: 0 Snow Depth: 0 Cm Days Since Last Snow: 88 Days Radiation Values: 0.0 Wh/m2 Illuminance Values: 0.0 lux."
+ },
+ {
+    "context": "The table includes standard barometric pressure information based on location elevation.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Missing Weather File Data ->  table.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the source of standard barometric pressure information.",
+    "question": "Where is the standard barometric pressure information derived from?",
+    "answer": "Standard barometric pressure is based on location elevation and is taken from ASHRAE 2001 Handbook of Fundamentals Page 6.1 & 2."
+ },
+ {
+    "context": "Weather data is typically provided in hourly format and needs to be interpolated for EnergyPlus when timesteps are less than an hour.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the necessity of interpolating weather data for EnergyPlus.",
+    "question": "Why is interpolation needed for weather data in EnergyPlus?",
+    "answer": "Interpolation is needed to match the hourly weather data with EnergyPlus timesteps that might be less than hourly ensuring continuous data."
+ },
+ {
+    "context": "EnergyPlus uses 'Last Hour Interpolation' for weather data which interpolates between the last hour's and this hour's values.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the interpolation method used in EnergyPlus.",
+    "question": "What interpolation method does EnergyPlus use for weather data?",
+    "answer": "EnergyPlus uses 'Last Hour Interpolation' interpolating between the last hour's and this hour's values."
+ },
+ {
+    "context": "In versions prior to V1.0.3 interpolation was done between 'this hour' and 'next hour'.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the compare the interpolation methods in different versions of EnergyPlus.",
+    "question": "How did the interpolation method change in EnergyPlus version V1.0.3?",
+    "answer": "Before V1.0.3 EnergyPlus interpolated between 'this hour' and 'next hour' but now it uses 'Last Hour Interpolation'."
+ },
+ {
+    "context": "Hour 1 in EnergyPlus is defined as 00:00:01AM to 1:00:00AM.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the define the first hour interval in EnergyPlus.",
+    "question": "What is the time interval for hour 1 in EnergyPlus?",
+    "answer": "The time interval for hour 1 in EnergyPlus is 00:00:01AM to 1:00:00AM."
+ },
+ {
+    "context": "Interpolation applies only to outdoor data not to schedule values.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the type of data interpolation applies to in EnergyPlus.",
+    "question": "Does interpolation in EnergyPlus apply to schedule values?",
+    "answer": "No interpolation applies only to outdoor data not to schedule values."
+ },
+ {
+    "context": "The interpolation formula involves weights for the last and this hour's values.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the formula used for interpolation.",
+    "question": "What is the formula used for interpolation in EnergyPlus?",
+    "answer": "The formula is: Value_TimeStep = LastHourValue * Weight_LastHour + ThisHourValue * Weight_ThisHour."
+ },
+ {
+    "context": "The weight for 'ThisHour' is calculated based on the current timestep and number of timesteps in an hour.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to calculate the weight for 'ThisHour'.",
+    "question": "How is the weight for 'ThisHour' calculated?",
+    "answer": "Weight_ThisHour = CurrentTimeStep / Number_of_TimeSteps_in_Hour."
+ },
+ {
+    "context": "The weight for 'LastHour' is the complement of the weight for 'ThisHour'.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how to calculate the weight for 'LastHour'.",
+    "question": "How is the weight for 'LastHour' calculated?",
+    "answer": "Weight_LastHour = 1.0 - Weight_ThisHour."
+ },
+ {
+    "context": "For a 15-minute timestep weights vary for each timestep within the hour.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the illustrate the weights for a 15-minute timestep.",
+    "question": "What are the weights for a 15-minute timestep?",
+    "answer": "1st timestep: .75 & .25 2nd: .5 & .5 3rd: .25 & .75 4th: 0 & 1.0."
+ },
+ {
+    "context": "For a 10-minute timestep weights are calculated for each timestep within the hour.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the illustrate the weights for a 10-minute timestep.",
+    "question": "What are the weights for a 10-minute timestep?",
+    "answer": "1st timestep: 0.833 & 0.167 2nd: 0.667 & 0.333 3rd: .5 & .5 4th: 0.333 & 0.667 5th: 0.167 & 0.833 6th: 0 & 1.0."
+ },
+ {
+    "context": "Interpolation provides a smooth continuous look to outdoor data.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the benefit of interpolation for outdoor data.",
+    "question": "What is the benefit of interpolation for outdoor data?",
+    "answer": "Interpolation gives a smooth continuous look to the outdoor data."
+ },
+ {
+    "context": "For day boundaries values from the previous day's last hour are used.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how interpolation handles day boundaries.",
+    "question": "How does interpolation handle day boundaries?",
+    "answer": "For day boundaries values from the previous day's last hour (23:00:01 to 24:00:00) are used."
+ },
+ {
+    "context": "On a design day the last hour values of hour 24 are used.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain how interpolation is applied on a design day.",
+    "question": "What values are used for interpolation on a design day?",
+    "answer": "On a design day values for hour 24 are used."
+ },
+ {
+    "context": "For the first day of a weather simulation hour 24 values of that day are used.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the interpolation method for the first day of a weather simulation.",
+    "question": "How is interpolation handled for the first day of a weather simulation?",
+    "answer": "For the first day of a weather simulation values for hour 24 of that day are used."
+ },
+ {
+    "context": "For subsequent weather days the last hour of the previous day is used.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather Data Hourly Interpolation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how interpolation is managed for subsequent weather days.",
+    "question": "How is interpolation managed for subsequent weather days?",
+    "answer": "For subsequent weather days the last hour of the previous day is used."
+ },
+ {
+    "context": "The section discusses how missing data on the weather file is reported during simulation in EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the summarize how missing data is reported in EnergyPlus.",
+    "question": "How is missing data on the weather file reported in EnergyPlus?",
+    "answer": "Missing data is summarized in the eplusout.err file and is shown only for fields that EnergyPlus will use."
+ },
+ {
+    "context": "For the WeatherCodes an invalid field count is reported if the number of items is not equal to 9.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the condition for reporting invalid WeatherCodes.",
+    "question": "When is an invalid field count for WeatherCodes reported?",
+    "answer": "An invalid field count is reported when the number of items in the field does not equal 9."
+ },
+ {
+    "context": "The number of items count refers to the number of records on the weather file that are in error or missing.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the explain the meaning of the number of items count.",
+    "question": "What does the number of items count refer to?",
+    "answer": "It refers to the number of records on the weather file that are in error or missing."
+ },
+ {
+    "context": "Out of range values are counted for each occurrence and summarized but they are not changed by EnergyPlus.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe how out of range values are handled.",
+    "question": "How are out of range values handled in EnergyPlus?",
+    "answer": "Out of range values are counted for each occurrence and summarized but they are not changed by EnergyPlus."
+ },
+ {
+    "context": "Listing shows a warning for missing data on the weather file with specific missing data items.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the warning message for missing data.",
+    "question": "What warning message is shown for missing data on the weather file?",
+    "answer": "** Warning ** Missing Data Found on Weather Data File"
+ },
+ {
+    "context": "The listing specifies missing atmospheric pressure and dry bulb temperatures.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the list the types of missing data identified in the warning.",
+    "question": "What types of missing data are identified in the warning?",
+    "answer": "Missing Atmospheric Pressure and Missing Dry Bulb Temperatures."
+ },
+ {
+    "context": "Another warning is shown for out of range data on the weather file.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the identify the warning message for out of range data.",
+    "question": "What warning message is shown for out of range data on the weather file?",
+    "answer": "** Warning ** Out of Range Data Found on Weather Data File"
+ },
+ {
+    "context": "The listing specifies an out of range dry bulb temperature.; From EnergyPlus Engineering Reference -> Chapter: Weather Data -> Section: Weather File Data Reporting (errors) during Simulation ->  text.",
+    "instruction": "Imagine you are a helpful assistant and building energy expert for the describe the out of range data identified in the warning.",
+    "question": "What out of range data is identified in the warning?",
+    "answer": "Out of Range Dry Bulb Temperature [>-70<70] Number of items = 1"
+ },
+]
