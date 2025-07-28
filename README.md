@@ -1,6 +1,6 @@
-# Fine-tuning Data Curation for LLM-based Question-Answering Using LoRA/QLoRA for Building Energy
+# LLM-based Question-Answering for Building Energy
 
-In this repository, we develop a fine-tuning data curation method for answering questions of building energy.
+In this repository, there is a fine-tuned LLM used to answer questions of building energy.
 
 ## Directory Structure
 ```
